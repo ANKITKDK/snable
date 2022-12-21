@@ -1,0 +1,542 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block meta_description %}
+<meta name="description" content="We at Snable provide the best courses for artificial intelligence, UI UX design, Machine learning, Full Stack Development and Digital Marketing. Explore Now!">
+<meta name="keywords" content="best artificial intelligence course, ui ux design course in nagpur, courses for marketing professionals, machine learning course in nagpur, ai & ml course, Full stack developer course in Nagpur, Mobile Development Courses">
+{% endblock meta_description %}
+
+{% block title %}
+<title>Full Stack Development, AI & ML Courses | Snable Pvt Ltd</title>
+{% endblock title %}
+
+<!-- Own Home Screen CSS -->
+{% block own_css %}
+<link rel="stylesheet" href="{% static 'css/traning-program.css' %}" />
+{% endblock own_css %}
+<!-- Start Slider -->
+{% block slider %}
+<div class="row slider pl-5 pr-5">
+   <!-- Start Sub Heading, Heading, Buttons -->
+   <div class="col-md-6 slider-heading-content-buttons">
+      <!-- Start Main Heading -->
+      <div class="row slider-heading">
+         <div class="col-md-12">
+            <h1>Training & Hiring</h1>
+         </div>
+      </div>
+      <!-- End Main Heading -->
+      <!-- Start Heading Sub Content -->
+      <div class="row slider-content">
+         <div class="col-md-12">
+            Cloud Migration through Digital and Application development for your business.
+         </div>
+      </div>
+      <!-- End Heading Sub Content -->
+   </div>
+   <!-- End Sub Heading, Heading, Buttons -->
+   <div class="col-md-1"></div>
+   <!-- Start Slider Image -->
+   <div class="col-md-4">
+      <div class="row slider-image">
+         <div class="col-md-12">
+            <img class="img-fluid" src="{% static 'img/training-program-slider.png' %}" alt="Full stack developer course in Nagpur" />
+         </div>
+      </div>
+   </div>
+   <!-- End Slider Image -->
+   <div class="col-md-1"></div>
+</div>
+{% endblock slider %}
+<!-- End Slider -->
+<!-- Start Main body -->
+{% block main_body %}
+<!-- Start our best courses -->
+<div class="row pl-5 pr-5 best-course" col-6>
+   <!-- Start Our Best Courses -->
+   <div class="col-md-4 col-12">
+      <div class="row">
+         <div class="col-md-12 best-course-heading">
+            <i class="fa-solid fa-thumbs-up"></i> Our Best Courses
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-12 best-course-content">
+            Explore a variety of fresh topics and updated syllabus
+         </div>
+      </div>
+   </div>
+   <!-- End Our Best Courses -->
+
+   <!-- Start Expert Instructors -->
+   <div class="col-md-4 col-12">
+      <div class="row">
+         <div class="col-md-12 best-course-heading">
+            <i class="fa-solid fa-star"></i> Expert Instructors
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-12 best-course-content">
+            Certified instructor with industry experience
+         </div>
+      </div>
+   </div>
+   <!-- End Expert Instructors -->
+
+   <!-- Start Launch Your Career -->
+   <div class="col-md-4 col-12">
+      <div class="row">
+         <div class="col-md-12 best-course-heading">
+           <i class="fa-solid fa-rocket"></i> Launch Your Career
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-12 best-course-content">
+            Whether you are fresher or experience
+         </div>
+      </div>
+   </div>
+   <!-- End Launch Your Career -->
+</div>
+<!-- End our best courses -->
+<!-- Start Our Courses Heading -->
+<div class="row ">
+   <div class="col-md-12 our-courses-heading">
+      Our Courses
+   </div>
+</div>
+<!-- End Our Courses Heading -->
+<!-- Start Courses -->
+<div class="row  course-row-1">
+   <!-- Start UI/UX Design -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-ui-ux.png' %}" alt="UI/UX-Designing">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            UI/UX Designing
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            The common theme throughout this course is that we will be designing with users in mind. that being said, How do they do ? How do they act ? those.........
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-ui-ux' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End UI/UX Design -->
+
+   <!-- Start Digital Marketing -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-digital-marketing.png' %}" alt="Digital-Marketing">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Digital Marketing
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            Digital marketing is the process of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services on the.........
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-digital-marketing' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Digital Marketing -->
+
+   <!-- Start Hybrid Mobile App Development -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-hybrid-mobile-app-development.png' %}" alt="Hybrid-Mobile-App-Development">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Hybrid Mobile App Development
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            The official language for Hybrid Mobile App Development is Java. Large parts of Android are written in Java and its APIs are designed to be called.........
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-hybrid-mobile-aap' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Hybrid Mobile App Development -->
+
+   <!-- Start Data Science -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-data-science.png' %}" alt="Data-Science">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Data Science
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            Data Science is the process of analysing and interpreting large volumes of data and to make marketing model on the basis of the database by using Python/R SAS etc......
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-data-science' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Data Science -->
+</div>
+
+<div class="row  course-row-2">
+   <!-- Start Machine Learning -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-machine-learning.png' %}" alt="Machine-Learning">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Machine Learning
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            Machine learning is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance......
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-machine-learning' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Machine Learning -->
+
+   <!-- Start Data Science & Machine Learning -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-data-science-&-machine-learning.png' %}" alt="Data-Science-&-Machine-Learning">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Data Science & Machine Learning
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            Data Science is the field which deals with large data and convert it into valuable information with the help of scientific principles and advanced analytical techniques...
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-data-science-and-machine-learning' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Data Science & Machine Learning -->
+
+   <!-- Start Full Stack & AIML -->
+   <div class="col-md-3 col-6 course-column">
+      <!-- Start Img -->
+      <div class="row">
+         <div class="col-md-12 course-image">
+            <img class="img-fluid" src="{% static 'img/training-program-full-stack-&-aiml.png' %}" alt="Full-Stack-&-AIML">
+         </div>
+      </div>
+      <!-- End Img -->
+      <!-- Start Course Heading -->
+      <div class="row">
+         <div class="col-md-12 course-heading">
+            Full Stack & AIML
+         </div>
+      </div>
+      <!-- End Course Heading -->
+      <!-- Start Course Content -->
+      <div class="row">
+         <div class="col-md-12 course-content">
+            Full stack development is a combination of frontend and backend programming languages, wherein frontend languages includes html css java script and backend.......
+         </div>
+      </div>
+      <!-- End Course Content -->
+      <!-- Start Course Know More Button -->
+      <div class="row">
+         <div class="col-md-6 course-know-more">
+            <a href="{% url 'training-program-full-stack-and-aiml' %}" class="text-decoration-none">
+               <button type="button" class="btn btn-lg btn-block btn-know-more">Know More</button>
+            </a>
+         </div>
+      </div>
+      <!-- End Course Know More Button -->
+   </div>
+   <!-- End Full Stack & AIML -->
+</div>
+<!-- End Courses-->
+{% endblock main_body %}
+<!-- End Main body -->
+<!-- Start Contact US Form & Google Map -->
+{% block main_body_contact_form %}
+<div class="container-fluid">
+   <div class="row contact-us pl-5 pr-5 pb-3">
+
+      <!-- Start Contact Us Form -->
+      <div class="col-md-6">
+
+         <!-- Start Contact Us heading  -->
+         <div class="row contact-us-heading">
+            <div class="col-md-12">
+               Fill in your Details
+            </div>
+         </div>
+         <!-- End Contact Us heading  -->
+
+         <form method="post" action="insert_training_hiring_form" class="needs-validation" novalidate>
+            {% csrf_token %}
+
+            <!-- Start Full Name -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your full name" name="full_name" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Full Name -->
+
+            <!-- Start Qualification -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your Qualifications" name="qualifications" required />
+                  </div>
+               </div>
+            </div>
+            <!-- Start Qualification -->
+
+            <!-- Start Select Course -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+
+                     <select name="course_name" id="" class="form-control" required>
+                        <option value="">--- Select Course ---</option>
+                        <option value="UI & UX Design">UI & UX Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Hybrid Mobile App Development">Hybrid Mobile App Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Data Science & Machine Learning">Data Science & Machine Learning</option>
+                        <option value="Full Stack & AIML">Full Stack & AIML</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <!-- End Select Course -->
+
+            <!-- Start Email Address -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your email address" id="myemail" name="email_id" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Email Address -->
+
+            <!-- Start Mobile & Whatsapp number -->
+            <div class="row">
+               <!-- Start Mobile number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-solid fa-phone"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="mobile_number" id="mynum" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Mobile number-->
+               <!-- Start Whatsapp number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="whatsapp_number" id="mynum1" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Whatsapp number-->
+            </div>
+            <!-- End Mobile & Whatsapp number -->
+
+            <!-- Start Contact us form comments -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12 pr-1 pl-4">
+                  <div class="form-group">
+                     <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message"></textarea>
+                  </div>
+               </div>
+            </div>
+            <!-- End Contact us form comments -->
+
+            <!-- Start Submit button -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-4">
+                  <button type="submit" class="btn btn-outline-primary btn-block">Submit</button>
+               </div>
+
+               <div class="col-md-8 pt-3 text-white">
+                  {% for i in messages %}
+                  <!--{{i}} -->
+                  {% if i.tags %}
+                  <script>
+                     alert("{{ i }}");
+                  </script>
+                  {% endif %} {% endfor %}
+                  <!--{% if messages %}
+                     {% for message in messages %}
+                         {% if message.tags %}
+                                 <script>alert("{{ message }}")</script>
+                         {% endif %}
+                     {% endfor %}
+                     {% endif %}-->
+               </div>
+            </div>
+            <!-- End Submit button -->
+
+         </form>
+      </div>
+      <!-- End Contact Us Form -->
+
+      <!-- Start google map for address -->
+      <div class="col-md-6">
+         <div class="row google-map-address">
+            <div class="col-md-12 google-map-container">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  style="border: 0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  width="100%"
+                  class="responsive-iframe"
+                  ></iframe>
+            </div>
+         </div>
+      </div>
+      <!-- End google map for address -->
+   </div>
+   <div class="row mobile-view-google-map-address">
+      <div class="col-md-12 mobile-view-google-map-container">
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            width="100%"
+            class="responsive-iframe"
+            ></iframe>
+      </div>
+   </div>
+</div>
+{% endblock main_body_contact_form %}
+<!-- End Contact US Form & Google Map -->

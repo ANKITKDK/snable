@@ -1,0 +1,1 @@
+window.addEventListener("load",function(){var a=document.getElementsByClassName("needs-validation");Array.prototype.filter.call(a,function(a){a.addEventListener("submit",function(b){!1===a.checkValidity()&&(b.preventDefault(),b.stopPropagation()),a.classList.add("was-validated")},!1)})},!1)

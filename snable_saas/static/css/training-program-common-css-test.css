@@ -1,0 +1,629 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url('Quicksand-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url('Nunito-VariableFont_wght.ttf');
+  }
+
+  :root
+  {
+      --color-text-1:#3F4C6E;
+      --color-text-2:#5D636E;
+      --color-text-4:#fff;
+      --font-family-q-sand :"Quicksand";
+      --font-family-nunito :"Nunito";
+  }
+
+html
+{
+    font-size: 100%;
+}
+
+  .header-navigation
+  {
+      background-image: linear-gradient(to top right, rgba(99,49,148,100%), rgba(107,140,222,6%));
+      padding-left: 0rem;
+      padding-right: 0rem;
+  }
+
+  .slider
+  {
+      padding-top:3.5rem;
+  }
+
+  .slider .slider-heading-content-buttons
+  {
+      padding-top:2.313rem;
+  }
+
+  .slider .slider-heading-content-buttons .slider-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 6rem;
+      line-height: 7.5rem;
+      color: var(--color-text-4);
+  }
+
+  .slider .slider-heading-content-buttons .slider-content
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.5rem;
+      line-height: 145%;
+      color: var(--color-text-4);
+      padding-top:1.563rem;
+  }
+
+  .slider .slider-heading-content-buttons .slider-buttons
+  {
+      padding-top: 4.125rem;
+  }
+
+  .main-body .program-overview-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.25rem;
+      line-height: 4.063rem;
+      color: var(--color-text-1);
+      padding-top:3rem;
+      padding-bottom:2.5rem;
+  }
+
+  .main-body .key-highlights-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      color: var(--color-text-1);
+      padding-bottom:2.5rem;
+  }
+
+  .main-body .key-highlights-content
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 145%;
+      color: var(--color-text-2);
+  }
+
+  .main-body .tools-covered-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      color: var(--color-text-1);
+      padding-top:6.25rem;
+      padding-bottom:2.5rem;
+  }
+
+  .main-body .tools-content
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 145%;
+      color: var(--color-text-2);
+      padding-top:0.625rem;
+  }
+
+  .main-body .tools-content-and-more
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 145%;
+      color: var(--color-text-2);
+      padding-top:8.313rem;
+  }
+
+  .main-body .course-description
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      color: var(--color-text-1);
+      padding-top:3.75rem;
+      padding-bottom:1.25rem;
+  }
+
+  .main-body .skills-you-will-learn-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      color: var(--color-text-1);
+      padding-top:2.5rem;
+      padding-bottom:1.25rem;
+  }
+
+  .main-body .syllabus
+  {
+      background-color:#7C5DAE;
+      margin-top:6.25rem;
+  }
+
+  .main-body .syllabus .syllabus-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 4.688rem;
+      color: var(--color-text-4);
+      padding-top:3.75rem;
+      padding-bottom:3rem;
+  }
+
+  .main-body .syllabus .module-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      color: var(--color-text-4);
+  }
+
+  .main-body .syllabus .module-heading .module-heading-smaller
+  {
+      font-size: 1.625rem;
+      line-height: 2.375rem;
+  }
+
+  .main-body .syllabus .module-content
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 145%;
+      color: var(--color-text-4);
+      padding-top:1.5rem;
+  }
+
+  .main-body .syllabus .syllabus-duration
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 4.688rem;
+      color: var(--color-text-4);
+      padding-bottom:5rem;
+      padding-top:0.938rem;
+  }
+
+  /* Start machine learning CSS */
+  .main-body .ml-module-heading
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 145%;
+      color: var(--color-text-4);
+  }
+  /* End machine learning CSS */
+
+  /* Start Data Science & Machine Learning */
+  .slider .slider-heading-content-buttons .slider-sub-heading
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 2.75rem;
+      color: rgba(255, 255, 255, 0.8);
+  }
+  /* End Data Science & Machine Learning */
+
+  /* Start Full Stack & AIML */
+  .main-body .module-core-python
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.75rem;
+      line-height: 2.375rem;
+      color: var(--color-text-4);
+      padding-bottom:2.5rem;
+  }
+  /* End Full Stack & AIML */
+
+
+  /* Start model css */
+  .main-body .brochure-modal .modal-dialog .modal-content .modal-body .row
+  {
+      margin-left:0rem;
+      margin-right:0rem;
+  }
+
+  .main-body .brochure-modal .modal-dialog .modal-content .modal-body .row .col-md-4
+  {
+      padding-left:0rem;
+      padding-right:0rem;
+  }
+
+  .main-body .brochure-modal .close
+  {
+      font-size:2.5rem;
+  }
+
+  .main-body .brochure-modal .form-heading
+  {
+      font-family: var(--font-family-q-sand);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      color: var(--color-text-1);
+  }
+
+  .main-body .brochure-modal .form-sub-heading
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 2.063rem;
+      color: var(--color-text-2);
+      padding-top: 0.75rem;
+  }
+
+  .main-body .brochure-modal .terms-condition-privacy-policy
+  {
+      font-family: var(--font-family-nunito);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height:1.375rem;
+      color: var(--color-text-2);
+      padding-top:0.938rem;
+  }
+  /* End model css */
+
+
+  /* Start mobile view */
+  @media all and (min-width: 767px) {
+
+      .mobile-view-slider-buttons
+      {
+          visibility:hidden;
+      }
+      .main-body .program-overview-heading,
+      .main-body .key-highlights-heading,
+      .main-body .key-highlights-content,
+      .main-body .tools-covered-heading,
+      .main-body .tools-covered-icon,
+      .main-body .course-description,
+      .main-body .skills-you-will-learn-heading,
+      .main-body .syllabus
+      {
+          padding-left:2.5rem;
+          padding-right:2.5rem;
+      }
+
+  }
+  @media all and (max-width: 766px)
+  {
+      .header-navigation
+      {
+          background: linear-gradient(to top, rgba(107, 140, 222, 0.29) 21%, rgba(99, 49, 148, 0.83) 107.09%);;
+      }
+
+      .slider
+      {
+          padding-top: 2.5rem;
+      }
+
+      .slider .slider-heading-content-buttons
+      {
+          padding-top: 0rem;
+      }
+
+
+      .slider .slider-heading-content-buttons .slider-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+          color: var(--color-text-4);
+          text-align:center;
+      }
+
+      .slider .slider-heading-content-buttons .slider-content
+      {
+          padding-top: 0.5rem;
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.875rem;
+          line-height: 145%;
+          text-align: center;
+          color: var(--color-text-4);
+      }
+
+      .slider .slider-heading-content-buttons .slider-buttons
+      {
+          display:none;
+          padding-top: 0rem;
+      }
+
+      .slider .slider-image
+      {
+          padding-top:2.938rem;
+          padding-left:1.875rem;
+          padding-right:1.875rem;
+      }
+
+      .mobile-view-slider-buttons
+      {
+          padding-top:2.5rem;
+      }
+
+      .main-body .program-overview-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.375rem;
+          line-height: 1.75rem;
+          color: var(--color-text-1);
+          padding-top: 1.375rem;
+          padding-bottom: 1rem;
+
+      }
+
+      .main-body .key-highlights-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-1);
+          padding-bottom: 0.5rem;
+      }
+
+      .main-body .key-highlights-content
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.75rem;
+          line-height: 145%;
+          color: var(--color-text-2);
+      }
+
+      .main-body .key-highlights-content .key-highlights-content-column ul
+      {
+          margin-bottom:0rem;
+      }
+
+      .main-body .tools-covered-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-1);
+          padding-top: 1.25rem;
+          padding-bottom: 1rem;
+      }
+
+      .main-body .tools-content
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.625rem;
+          line-height: 145%;
+          color: var(--color-text-2);
+          padding-top: 0.25rem;
+      }
+
+      .main-body .course-description
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-1);
+          padding-top: 1.25rem;
+          padding-bottom: 0.375rem;
+      }
+
+      .main-body .skills-you-will-learn-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-1);
+          padding-top: 1.25rem;
+          padding-bottom: 0.375rem;
+      }
+
+      .main-body .syllabus
+      {
+          margin-top: 2.5rem;
+      }
+
+      .main-body .syllabus .syllabus-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.25rem;
+          line-height: 1.563rem;
+          color: var(--color-text-4);
+          padding-top: 1.25rem;
+          padding-bottom: 1rem;
+      }
+
+      .main-body .syllabus .module-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-4);
+      }
+
+      .main-body .syllabus .module-content
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.75rem;
+          line-height: 145%;
+          color: var(--color-text-4);
+          padding-top: 0.5rem;
+      }
+
+      .main-body .syllabus .syllabus-duration
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: var(--color-text-4);
+          padding-bottom: 2.75rem;
+          padding-top: 0.938rem;
+
+      }
+
+      .main-body .tools-content-and-more
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 500;
+          font-size: 0.75rem;
+          line-height: 0.938rem;
+          color: var(--color-text-1);
+          padding-top: 0.5rem;
+      }
+
+      .main-body .ml-module-heading
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 0.75rem;
+          line-height: 145%;
+          color: var(--color-text-4);
+      }
+
+      .slider .slider-heading-content-buttons .slider-sub-heading
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1rem;
+          line-height: 1.375rem;
+          color: rgba(255, 255, 255, 0.8);
+          text-align:center;
+      }
+
+      .main-body .module-core-python
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 0.875rem;
+          line-height: 1.188rem;
+          color: var(--color-text-4);
+          padding-top:0.75rem;
+          padding-bottom: 0.5rem;
+      }
+
+      .main-body .brochure-modal .form-heading
+      {
+          font-family: var(--font-family-q-sand);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.25rem;
+          line-height: 1.563rem;
+          color: var(--color-text-1);
+      }
+
+      .main-body .brochure-modal .form-sub-heading
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 500;
+          font-size: 0.75rem;
+          line-height: 1rem;
+          color: var(--color-text-2);
+          padding-top: 0.25rem;
+      }
+
+      .main-body .brochure-modal .terms-condition-privacy-policy
+      {
+          font-family: var(--font-family-nunito);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.625rem;
+          line-height: 0.875rem;
+          color: var(--color-text-2);
+          padding-top: 0.938rem;
+      }
+  }
+
+  /* End mobile view */
+@media (min-width: 768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    html{
+        font-size: 60%;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    html{
+        font-size: 100%;
+    }
+}
+

@@ -1,0 +1,45 @@
+{% extends 'admin-blog-dashboard.html' %}
+{% load static %}
+{% block title %}
+<title>Add Blog</title>
+<!-- Rich text script -->
+<script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+{% endblock title %}
+
+
+{% block blog_admin_tab %}
+
+<!-- Start Heading -->
+<div class="row">
+    <div class="col-md-12 text-primary">
+        <h5>Add Blog</h5>
+    </div>
+</div>
+<!-- End Heading -->
+
+<!-- Start Form -->
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="insert_blog_form">
+            {% csrf_token %}
+            <p>tittle:</p>
+            <p><input type="text" name="tittle"></p>
+            <p>description:</p>
+            <p>
+                <textarea name="editor1" id="" cols="30" rows="10" name="description"></textarea>
+            </p>
+            <p>body</p>
+            <p><input type="text" name="body"></p>
+            <p>
+                <button type="submit">Post</button>
+            </p>
+        </form>
+    </div>
+</div>
+<!-- End Form -->
+<!-- Start ckeditor text for post -->
+<script>
+    CKEDITOR.replace('editor1');
+</script>
+<!-- End ckeditor text for post -->
+{% endblock blog_admin_tab %}

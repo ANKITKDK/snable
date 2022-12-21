@@ -1,0 +1,351 @@
+/* CHANGELISTS */
+
+#changelist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#changelist .changelist-form-container {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#changelist table {
+    width: 100%;
+}
+
+.change-list .hiddenfields { display:none; }
+
+.change-list .filtered table {
+    border-right: none;
+}
+
+.change-list .filtered {
+    min-height: 400rem;
+}
+
+.change-list .filtered .results, .change-list .filtered .paginator,
+.filtered #toolbar, .filtered div.xfull {
+    width: auto;
+}
+
+.change-list .filtered table tbody th {
+    padding-right: 1em;
+}
+
+#changelist-form .results {
+    overflow-x: auto;
+    width: 100%;
+}
+
+#changelist .toplinks {
+    border-bottom: 1rem solid var(--hairline-color);
+}
+
+#changelist .paginator {
+    color: var(--body-quiet-color);
+    border-bottom: 1rem solid var(--hairline-color);
+    background: var(--body-bg);
+    overflow: hidden;
+}
+
+/* CHANGELIST TABLES */
+
+#changelist table thead th {
+    padding: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#changelist table thead th.action-checkbox-column {
+    width: 1.5em;
+    text-align: center;
+}
+
+#changelist table tbody td.action-checkbox {
+    text-align: center;
+}
+
+#changelist table tfoot {
+    color: var(--body-quiet-color);
+}
+
+/* TOOLBAR */
+
+#toolbar {
+    padding: 8rem 10rem;
+    margin-bottom: 15rem;
+    border-top: 1rem solid var(--hairline-color);
+    border-bottom: 1rem solid var(--hairline-color);
+    background: var(--darkened-bg);
+    color: var(--body-quiet-color);
+}
+
+#toolbar form input {
+    border-radius: 4rem;
+    font-size: 14rem;
+    padding: 5rem;
+    color: var(--body-fg);
+}
+
+#toolbar #searchbar {
+    height: 19rem;
+    border: 1rem solid var(--border-color);
+    padding: 2rem 5rem;
+    margin: 0;
+    vertical-align: top;
+    font-size: 13rem;
+    max-width: 100%;
+}
+
+#toolbar #searchbar:focus {
+    border-color: var(--body-quiet-color);
+}
+
+#toolbar form input[type="submit"] {
+    border: 1rem solid var(--border-color);
+    font-size: 13rem;
+    padding: 4rem 8rem;
+    margin: 0;
+    vertical-align: middle;
+    background: var(--body-bg);
+    box-shadow: 0 -15rem 20rem -10rem rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    color: var(--body-fg);
+}
+
+#toolbar form input[type="submit"]:focus,
+#toolbar form input[type="submit"]:hover {
+    border-color: var(--body-quiet-color);
+}
+
+#changelist-search img {
+    vertical-align: middle;
+    margin-right: 4rem;
+}
+
+/* FILTER COLUMN */
+
+#changelist-filter {
+    flex: 0 0 240rem;
+    order: 1;
+    background: var(--darkened-bg);
+    border-left: none;
+    margin: 0 0 0 30rem;
+}
+
+#changelist-filter h2 {
+    font-size: 14rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    padding: 5rem 15rem;
+    margin-bottom: 12rem;
+    border-bottom: none;
+}
+
+#changelist-filter h3 {
+    font-weight: 400;
+    padding: 0 15rem;
+    margin-bottom: 10rem;
+}
+
+#changelist-filter ul {
+    margin: 5rem 0;
+    padding: 0 15rem 15rem;
+    border-bottom: 1rem solid var(--hairline-color);
+}
+
+#changelist-filter ul:last-child {
+    border-bottom: none;
+}
+
+#changelist-filter li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#changelist-filter a {
+    display: block;
+    color: var(--body-quiet-color);
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+#changelist-filter li.selected {
+    border-left: 5rem solid var(--hairline-color);
+    padding-left: 10rem;
+    margin-left: -15rem;
+}
+
+#changelist-filter li.selected a {
+    color: var(--link-selected-fg);
+}
+
+#changelist-filter a:focus, #changelist-filter a:hover,
+#changelist-filter li.selected a:focus,
+#changelist-filter li.selected a:hover {
+    color: var(--link-hover-color);
+}
+
+#changelist-filter #changelist-filter-clear a {
+    font-size: 13rem;
+    padding-bottom: 10rem;
+    border-bottom: 1rem solid var(--hairline-color);
+}
+
+/* DATE DRILLDOWN */
+
+.change-list ul.toplinks {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.change-list ul.toplinks li {
+    padding: 3rem 6rem;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.change-list ul.toplinks .date-back a {
+    color: var(--body-quiet-color);
+}
+
+.change-list ul.toplinks .date-back a:focus,
+.change-list ul.toplinks .date-back a:hover {
+    color: var(--link-hover-color);
+}
+
+/* PAGINATOR */
+
+.paginator {
+    font-size: 13rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    line-height: 22rem;
+    margin: 0;
+    border-top: 1rem solid var(--hairline-color);
+    width: 100%;
+}
+
+.paginator a:link, .paginator a:visited {
+    padding: 2rem 6rem;
+    background: var(--button-bg);
+    text-decoration: none;
+    color: var(--button-fg);
+}
+
+.paginator a.showall {
+    border: none;
+    background: none;
+    color: var(--link-fg);
+}
+
+.paginator a.showall:focus, .paginator a.showall:hover {
+    background: none;
+    color: var(--link-hover-color);
+}
+
+.paginator .end {
+    margin-right: 6rem;
+}
+
+.paginator .this-page {
+    padding: 2rem 6rem;
+    font-weight: bold;
+    font-size: 13rem;
+    vertical-align: top;
+}
+
+.paginator a:focus, .paginator a:hover {
+    color: white;
+    background: var(--link-hover-color);
+}
+
+/* ACTIONS */
+
+.filtered .actions {
+    border-right: none;
+}
+
+#changelist table input {
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#changelist table tbody tr.selected {
+    background-color: var(--selected-row);
+}
+
+#changelist .actions {
+    padding: 10rem;
+    background: var(--body-bg);
+    border-top: none;
+    border-bottom: none;
+    line-height: 24rem;
+    color: var(--body-quiet-color);
+    width: 100%;
+}
+
+#changelist .actions.selected { /* XXX Probably unused? */
+    background: var(--body-bg);
+    border-top: 1rem solid var(--body-bg);
+    border-bottom: 1rem solid #edecd6;
+}
+
+#changelist .actions span.all,
+#changelist .actions span.action-counter,
+#changelist .actions span.clear,
+#changelist .actions span.question {
+    font-size: 13rem;
+    margin: 0 0.5em;
+}
+
+#changelist .actions:last-child {
+    border-bottom: none;
+}
+
+#changelist .actions select {
+    vertical-align: top;
+    height: 24rem;
+    color: var(--body-fg);
+    border: 1rem solid var(--border-color);
+    border-radius: 4rem;
+    font-size: 14rem;
+    padding: 0 0 0 4rem;
+    margin: 0;
+    margin-left: 10rem;
+}
+
+#changelist .actions select:focus {
+    border-color: var(--body-quiet-color);
+}
+
+#changelist .actions label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13rem;
+}
+
+#changelist .actions .button {
+    font-size: 13rem;
+    border: 1rem solid var(--border-color);
+    border-radius: 4rem;
+    background: var(--body-bg);
+    box-shadow: 0 -15rem 20rem -10rem rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 24rem;
+    line-height: 1;
+    padding: 4rem 8rem;
+    margin: 0;
+    color: var(--body-fg);
+}
+
+#changelist .actions .button:focus, #changelist .actions .button:hover {
+    border-color: var(--body-quiet-color);
+}

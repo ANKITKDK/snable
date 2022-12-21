@@ -1,0 +1,2186 @@
+{% extends 'index.html' %} {% load static %}
+
+{% block meta_description %}
+<meta name="description" content="Snable Pvt Ltd provides the best Full Stack Training in Nagpur that's a project - focused training course with live projects and practical implementation.">
+<meta name="keywords" content="Full stack developer course in Nagpur, web development courses in nagpur, artificial intelligence classes, full stack developer course, ml and ai course">
+{% endblock meta_description %}
+
+{% block title %}
+<title>Full stack developer course in Nagpur | Snable Pvt Ltd</title>
+{% endblock title %}
+
+<!-- Own Home Screen CSS -->
+{% block own_css %}
+<link rel="stylesheet" href="{% static 'css/training-program-common-css.css' %}" />
+{% endblock own_css %}
+
+<!-- Start Slider -->
+{% block slider %}
+
+<div class="row slider pl-5 pr-5">
+    <div class="col-md-1"></div>
+    <!-- Start Sub Heading, Heading, Buttons -->
+    <div class="col-md-5 slider-heading-content-buttons">
+        <!-- Start Main Heading -->
+        <div class="row slider-heading">
+            <div class="col-md-12">
+                <h1>Full Stack & AIML</h1>
+            </div>
+        </div>
+        <!-- End Main Heading -->
+
+        <!-- Start Traning and placement Button -->
+        <div class="row slider-buttons">
+            <div class="col-sm-6">
+                <a href="https://calendly.com/snablein/book-and-appointment" class="text-decoration-none" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block">Book an Appointment</button> &nbsp; </a>
+            </div>
+            <div class="col-sm-6">
+
+                <!--<a href="{{result.docs.url}}" class="text-decoration-none" target="_blank">
+                    <button type="button" class="btn btn-outline-primary btn-lg btn-block">
+                        Download brochure
+                    </button>            &nbsp;
+                </a>-->
+
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-target="#modal_downlaod_brochure" data-toggle="modal">
+                    Download brochure
+                </button>
+            </div>
+        </div>
+        <!-- Start Traning and placement Button -->
+    </div>
+    <!-- End Sub Heading, Heading, Buttons -->
+    <div class="col-md-1"></div>
+    <!-- Start Slider Image -->
+    <div class="col-md-4">
+        <div class="row slider-image">
+            <div class="col-md-12">
+                <img class="float-right img-fluid" src="{% static 'img/training-program-full-stack-developer-slider.png' %}" alt="Full-stack-developer-course-in-Nagpur" />
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Image -->
+    <div class="col-md-1"></div>
+</div>
+
+<!-- Start Traning and placement Button -->
+<div class="row mobile-view-slider-buttons pl-4 pr-4">
+    <div class="col-sm-6">
+        <a href="https://calendly.com/snablein/book-and-appointment" class="text-decoration-none" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block">Book an Appointment</button> &nbsp; </a>
+    </div>
+    <div class="col-sm-6">
+
+        <!--<a href="{{result.docs.url}}" class="text-decoration-none" target="_blank">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block">
+                Download brochure
+            </button>            &nbsp;
+        </a>-->
+
+
+         <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-target="#modal_downlaod_brochure_mobile_view" data-toggle="modal">
+                    Download brochure
+        </button>
+    </div>
+
+</div>
+<!-- Start Traning and placement Button -->
+
+{% endblock slider %}
+<!-- End Slider -->
+
+<!-- Start Main body -->
+{% block main_body %}
+
+<!-- Start Program Overview Heading -->
+<div class="row program-overview-heading">
+    <div class="col-md-12">
+        Program Overview
+    </div>
+</div>
+<!-- End Program Overview Heading -->
+
+<!-- Start Key Highlights heading -->
+<div class="row key-highlights-heading">
+    <div class="col-md-12">
+        Key Highlights
+    </div>
+</div>
+<!-- End Key Highlights heading -->
+
+<!-- Start Key Highlights content -->
+<div class="row key-highlights-content">
+    <div class="col-md-4 col-12 key-highlights-content-column">
+        <ul>
+            <li>1400+ Hours of Learning</li>
+            <li>Designed for freshers and professionals</li>
+            <li>15+ Case Studies and Assignments</li>
+            <li>6 Practical Hands-on Capstone Projects</li>
+            <li>Live Coding Classes & Profile Building Workshops</li>
+            <li>No Cost EMI Options available</li>
+            <li>Dedicated Student Success Mentor</li>
+            <li>3 Electives to customize your learning path</li>
+            <li>Learning management system</li>
+        </ul>
+    </div>
+    <div class="col-md-1 col-0"></div>
+    <div class="col-md-5 col-12">
+        <ul>
+            <li>Daily Doubt Resolution Sessions</li>
+            <li>Career Mentorship Sessions(1:1)</li>
+            <li>High Performance Coaching(1:1)</li>
+            <li>Exclusive Job opportunities</li>
+            <li>AI Powered Profile Builder</li>
+            <li>Personalised Industry Session</li>
+            <li>Creation of portfolio website on Github to boost the learners’ career persona</li>
+        </ul>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<!-- End Key Highlights content -->
+
+<!-- Start Tools Covered For UI/UX Design heading -->
+<div class="row tools-covered-heading">
+    <div class="col-md-12">
+        Tool Covered for Full Stack & AIML
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design heading -->
+
+<!-- Start Tools Covered For UI/UX Design icon -->
+<div class="row tools-covered-icon">
+
+    <!-- Start Python -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-python.png' %}" alt="Python-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Python
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Python -->
+
+    <!-- Start NumPy -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-numpy.png' %}" alt="NumPy-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                NumPy
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End NumPy -->
+
+    <!-- Start K Keras -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-k-keras.png' %}" alt="K-Keras-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                K Keras
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End K Keras -->
+
+    <!-- Start Tensor Flow -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-tensor-flow.png' %}" alt="Tensor-Flow-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Tensor Flow
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Tensor Flow -->
+
+    <!-- Start Matplotlib -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-matplotlib.png' %}" alt="Matplotlib-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Matplotlib
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Matplotlib -->
+
+    <!-- Start Scikit Learn -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-scikit-learn.png' %}" alt="Scikit-Learn-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Scikit Learn
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Scikit Learn -->
+
+    <!-- Start Java -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-java.png' %}" alt="Java-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Java
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Java -->
+
+    <!-- Start Mysql -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-mysql.png' %}" alt="Mysql-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Mysql
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Mysql -->
+
+    <!-- Start Spring -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-spring.png' %}" alt="Spring-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Spring
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Spring -->
+
+    <!-- Start Jupyter -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-jupyter.png' %}" alt="Jupyter-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Jupyter
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Jupyter -->
+
+    <!-- Start Notepad++ -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-notepad++.png' %}" alt="Notepad++-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Notepad++
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Notepad++ -->
+
+    <!-- Start Sublime -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-sublime.png' %}" alt="Sublime-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Sublime
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Sublime -->
+
+    <!-- Start PyCharm -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-pycharm.png' %}" alt="PyCharm-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                PyCharm
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End PyCharm -->
+
+    <!-- Start visual studio code -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-full-stack-developer-visual-studio-code.png' %}" alt="Visual-Studio-Code-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Visual Studio Code
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End visual studio code -->
+
+</div>
+<!-- End Tools Covered For UI/UX Design icon -->
+
+
+<!-- Start Tools Covered For UI/UX Design/ description heading -->
+<div class="row course-description">
+    <div class="col-md-12">
+        Description
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design/ description heading -->
+
+<!-- Start Key Highlights content / General Content -->
+<div class="row key-highlights-content">
+    <div class="col-md-12 text-justify">
+        Full stack development is a combination of frontend and backend programming languages, wherein frontend languages includes html css java script and backend languages mainly involves with python and with the help of these languages a full stack web developer develops both client and server software and handle projects involving databases, designing user-facing websites etc. Artificial intelligence and Machine learning deals with the capability of machines to replicate human intelligence.
+    </div>
+</div>
+<!-- End Key Highlights content / General Content -->
+
+<!-- Start Tools Covered For UI/UX Design/ Skills You Will Learn heading -->
+<div class="row skills-you-will-learn-heading">
+    <div class="col-md-12">
+       Skills You Will Learn
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design/ Skills You Will Learn heading -->
+
+<!-- Start Key Highlights content / General Content -->
+<div class="row key-highlights-content">
+    <div class="col-md-12">
+        <ol>
+            <li>HTML (Hypertext Markup Language)</li>
+            <li>Advanced JavaScript</li>
+            <li>Artificial Intelligence & Machine Learning</li>
+            <li>Ajax ( Asynchronous JavaScript + XML )</li>
+        </ol>
+    </div>
+</div>
+<!-- End Key Highlights content / General Content -->
+
+<!-- Start Syllabus -->
+<div class="row syllabus">
+    <div class="col-md-12">
+
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 syllabus-heading">
+                Syllabus
+            </div>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Start Module row 1 -->
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <!-- Start Module 1 : HTML (Hypertext Markup Language) Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 1 : <span class="module-heading-smaller">HTML (Hypertext Markup Language)</span>
+                    </div>
+                </div>
+                <!-- End Module 1 : HTML (Hypertext Markup Language) Heading -->
+
+                <!-- Start HTML Basic Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                HTML Basic
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End HTML Basic Heading -->
+
+                <!-- Start HTML Basic Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>What is Markup Language</li>
+                            <li>Basic Structure of HTML</li>
+                            <li>Meta Tags</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End HTML Basic Content -->
+
+                <!-- Start HTML Elements Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                HTML Elements
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End HTML Elements Heading -->
+
+                <!-- Start HTML Elements Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Basics, Elements , Attributes</li>
+                            <li>Paragraphs and Formatting</li>
+                            <li>HTML Skeleton, Links</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End HTML Elements Content -->
+
+                <!-- Start Images Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Images
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Images Heading -->
+
+                <!-- Start Images Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Optimizing web graphic JPEG GIF & PNG</li>
+                            <li>Getting images from Photoshop</li>
+                            <li>Embedding Images in a Web Page</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Images Content -->
+
+                <!-- Start Hyperlinks Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                Hyperlinks
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Hyperlinks Heading -->
+
+                <!-- Start Hyperlinks Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Href, Name, Title, Target</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Hyperlinks Content -->
+
+                <!-- Start Lists Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                Lists
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Lists Heading -->
+
+                <!-- Start Div & Tables Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                Div & Tables
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Div & Tables Heading -->
+
+                <!-- Start Form Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                Form
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Form Heading -->
+
+                <!-- Start HTML5 Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                HTML5
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End HTML5 Heading -->
+
+                <!-- Module 2 : CSS (Cascading Style Sheet) Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 2 : <span class="module-heading-smaller">CSS (Cascading Style Sheet)</span>
+                    </div>
+                </div>
+                <!-- End Module 2 : CSS (Cascading Style Sheet) Heading -->
+
+                <!-- Start Understanding CSS Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Understanding CSS
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Understanding CSS Heading -->
+
+                <!-- Start Understanding CSS Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Versions of CSS</li>
+                            <li>Types of CSS Rules</li>
+                            <li>CSS and Markup Languages</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Understanding CSS Content -->
+
+                <!-- Start CSS Basics Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                CSS Basics
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End CSS Basics Heading -->
+
+                <!-- Start CSS Basics Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Adding Styles to an HTML Tag</li>
+                            <li>Adding Styles to a Web Page and Web Site</li>
+                            <li>Redefining an HTML Tag</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End CSS Basics Content -->
+
+                <!-- Start Font Properties Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Font Properties
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Font Properties Heading -->
+
+                <!-- Start Font Properties Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Understanding Typography on the Web</li>
+                            <li>Setting the Font Size</li>
+                            <li>Making Text Italic and Setting Bold, Bolder, Boldest</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Font Properties Content -->
+
+                <!-- Start Text Properties Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                Text Properties
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Text Properties Heading -->
+
+                <!-- Start Color and Background Properties Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                Color and Background Properties
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Color and Background Properties Heading -->
+
+                <!-- Start Box Properties Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                Box Properties
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Box Properties Heading -->
+
+                <!-- Start CSS Border Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                CSS Border
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End CSS Border Heading -->
+
+                <!-- Start Positioning Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                Positioning
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Positioning Heading -->
+
+                <!-- Start Floating Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="9">
+                            <li>
+                                Floating
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Floating Heading -->
+
+                <!-- Start Pseudo – elements and CSS classes Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="10">
+                            <li>
+                                Pseudo – elements and CSS classes
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Pseudo – elements and CSS classes Heading -->
+
+                <!-- Start CSS List Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="11">
+                            <li>
+                                CSS List
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End CSS List Heading -->
+
+                <!-- Start CSS3 Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="12">
+                            <li>
+                                CSS3
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End CSS3 Heading -->
+
+                <!-- Start Module 3 : JavaScript (Client side Scripting Language) Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 3 : <span class="module-heading-smaller">JavaScript (Client side Scripting Language)</span>
+                    </div>
+                </div>
+                <!-- End Module 3 : JavaScript (Client side Scripting Language) Heading -->
+
+                <!-- Start Introduction of JavaScript Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Introduction of JavaScript
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Introduction of JavaScript Heading -->
+
+                <!-- Start Introduction of JavaScript Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>What is JavaScript?</li>
+                            <li>JavaScript and Markup</li>
+                            <li>Languages JavaScript Syntax</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Introduction of JavaScript Content -->
+
+                <!-- Start JavaScript Output Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                JavaScript Output
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Output Heading -->
+
+                <!-- Start JavaScript Output Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>window.alert</li>
+                            <li>document.write</li>
+                            <li>console.log</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End JavaScript Output Content -->
+
+                <!-- Start Statements and Comments Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Statements and Comments
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Statements and Comments Heading -->
+
+                <!-- Start Variables Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                Variables
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Variables Heading -->
+
+                <!-- Start JavaScript Arrays Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                JavaScript Arrays
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Arrays Heading -->
+
+                <!-- Start JavaScript Objects Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                JavaScript Objects
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Objects Heading -->
+
+                <!-- Start Data types Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                Data types
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Data types Heading -->
+
+                <!-- Start Operators Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                Operators
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Operators Heading -->
+
+                <!-- Start Functions Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="9">
+                            <li>
+                                Functions
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Functions Heading -->
+
+                <!-- Start Conditional Statements and Loops Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="10">
+                            <li>
+                                Conditional Statements and Loops
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Conditional Statements and Loops Heading -->
+
+                <!-- Start JavaScript Dates Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="11">
+                            <li>
+                                JavaScript Dates
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Dates Heading -->
+
+                <!-- Start HTML Events Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="12">
+                            <li>
+                                HTML Events
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End HTML Events Heading -->
+
+                <!-- Start JavaScript Validation Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="13">
+                            <li>
+                                JavaScript Validation
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Validation Heading -->
+
+                <!-- Start Module 4 : Advanced JavaScript Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 4 : <span class="module-heading-smaller">Advanced JavaScript</span>
+                    </div>
+                </div>
+                <!-- End Module 4 : Advanced JavaScript Heading -->
+
+                <!-- Start JavaScript Basics Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                JavaScript Basics
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JavaScript Basics Heading -->
+
+                <!-- Start JavaScript Basics Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Refreshing Basic JavaScript Concepts</li>
+                            <li> Defining Functions</li>
+                            <li>Arrays & Objects in JS</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End JavaScript Basics Content -->
+
+                <!-- Start The DOM Objects Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                The DOM Objects
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End The DOM Objects Heading -->
+
+                <!-- Start The DOM Objects Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Introduction to DOM object</li>
+                            <li>DOM Methods</li>
+                            <li>Access & Modify HTML through DOM</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End The DOM Objects Content -->
+
+
+
+
+
+            </div>
+
+            <div class="col-md-6">
+
+                <!-- Start Module 5 : Ajax ( Asynchronous JavaScript + XML ) Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 5 : <span class="module-heading-smaller">Ajax ( Asynchronous JavaScript + XML )</span>
+                    </div>
+                </div>
+                <!-- End Module 5 : Ajax ( Asynchronous JavaScript + XML ) Heading -->
+
+                <!-- Start AJAX with JavaScript Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                AJAX with JavaScript
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End AJAX with JavaScript Heading -->
+
+                <!-- Start AJAX with JavaScript Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Why AJAX & How it works</li>
+                            <li>Syntax (XMLHTTPRequest Object)</li>
+                            <li>Sending Requests to server</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End AJAX with JavaScript Content -->
+
+                <!-- Start jQuery AJAX Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                jQuery AJAX
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery AJAX Heading -->
+
+                <!-- Start jQuery AJAX Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>jQuery load</li>
+                            <li>jQuery Get/Post</li>
+                            <li>jQuery Ajax method</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End jQuery AJAX Content -->
+
+                <!-- Start JQuery :  Introduction Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                jQuery Introduction
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End JQuery :  Introduction Heading -->
+
+                <!-- Start jQuery Syntax Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                jQuery Syntax
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Syntax Heading -->
+
+                <!-- Start jQuery Selectors Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                jQuery Selectors
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Selectors Heading -->
+
+                <!-- Start jQuery Events Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                jQuery Events
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Events Heading -->
+
+                <!-- Start jQuery Effects Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                jQuery Effects
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Effects Heading -->
+
+                <!-- Start jQuery HTML / CSS Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                jQuery HTML / CSS
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery HTML / CSS Heading -->
+
+                <!-- Start jQuery Misc Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="9">
+                            <li>
+                                jQuery Misc
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Misc Heading -->
+
+                <!-- Start jQuery Events Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="10">
+                            <li>
+                                jQuery Events
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Events Heading -->
+
+                <!-- Start jQuery Form Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="11">
+                            <li>
+                                jQuery Form
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End jQuery Form Heading -->
+
+                <!-- Start Module 6 : Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 6 : <span class="module-heading-smaller">Bootstrap</span>
+                    </div>
+                </div>
+                <!-- End Module 6 : Bootstrap Heading -->
+
+                <!-- Start Bootstrap Introduction Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Bootstrap Introduction
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Bootstrap Introduction Heading -->
+
+                <!-- Start Bootstrap Introduction Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>What is Bootstrap?</li>
+                            <li>What is Responsive Web design ?</li>
+                            <li>Bootstrap 3 vs Bootstrap 4</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Bootstrap Introduction Content -->
+
+                <!-- Start How to Create a Layout in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                How to Create a Layout in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End How to Create a Layout in Bootstrap Heading -->
+
+                <!-- Start How to Create a Layout in Bootstrap Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Grid Classes</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End How to Create a Layout in Bootstrap Content -->
+
+                <!-- Start Basic Tags in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Basic Tags in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Basic Tags in Bootstrap Heading -->
+
+                <!-- Start Basic Tags in Bootstrap Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Typography</li>
+                            <li>Contextual colors and backgrounds</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Basic Tags in Bootstrap Content -->
+
+                <!-- Start Table in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                Table in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Table in Bootstrap Heading -->
+
+                <!-- Start Images in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                Images in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Images in Bootstrap Heading -->
+
+                <!-- Start Alerts in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                Alerts in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Alerts in Bootstrap Heading -->
+
+                <!-- Start Navigation bar in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                Navigation bar in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Navigation bar in Bootstrap Heading -->
+
+                <!-- Start Form in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                Form in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Form in Bootstrap Heading -->
+
+                <!-- Start Buttons in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="9">
+                            <li>
+                                Buttons in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Buttons in Bootstrap Heading -->
+
+                <!-- Start Modal in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="10">
+                            <li>
+                                Modal in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Modal in Bootstrap Heading -->
+
+                <!-- Start Carousel in Bootstrap Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="11">
+                            <li>
+                                Carousel in Bootstrap
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Carousel in Bootstrap Heading -->
+
+                <!-- Start Module 7 : Back End (Python) Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 7 : <span class="module-heading-smaller">Back End (Python)</span>
+                    </div>
+                </div>
+                <!-- End Module 7 : Back End (Python) Heading -->
+
+                <!-- Start Core Python programming -->
+                <div class="row">
+                    <div class="col-md-12 module-core-python">
+                        Core Python programming
+                    </div>
+                </div>
+                <!-- End Core Python programming -->
+
+                <!-- Start Introduction Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Introduction
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Introduction Heading -->
+
+                <!-- Start Introduction Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Why Python where to use it?</li>
+                            <li>Features of Python</li>
+                            <li>Domains where Python is used</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Introduction Content -->
+
+                <!-- Start Control Statements Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                Control Statements
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Control Statements Heading -->
+
+                <!-- Start Control Statements Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Variables and Data Types</li>
+                            <li>Debugging Python Programs using debugger in Pycharm</li>
+                            <li>Taking User Input</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Control Statements Content -->
+
+                <!-- Start Collections in Python Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Collections in Python
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Collections in Python Heading -->
+
+                <!-- Start User defined Functions Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                User defined Functions
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End User defined Functions Heading -->
+
+                <!-- Start Object Oriented Concepts Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="5">
+                            <li>
+                                Object Oriented Concepts
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Object Oriented Concepts Heading -->
+
+                <!-- Start Exception Handling in Python Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="6">
+                            <li>
+                                Exception Handling in Python
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Exception Handling in Python Heading -->
+
+                <!-- Start Modules and Packages Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="7">
+                            <li>
+                                Modules and Packages
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Modules and Packages Heading -->
+
+                <!-- Start Regular Expression Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="8">
+                            <li>
+                                Regular Expression
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Regular Expression Heading -->
+
+                <!-- Start Multithreading Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="9">
+                            <li>
+                                Multithreading
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Multithreading Heading -->
+
+                <!-- Start File Handling Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="10">
+                            <li>
+                                File Handling
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End File Handling Heading -->
+
+                <!-- Start Database Handling Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="11">
+                            <li>
+                                Database Handling
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Database Handling Heading -->
+
+                <!-- Start Module 8 : Tkinter GUI Framework–For Desktop based Application Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 8 : <span class="module-heading-smaller">Tkinter GUI Framework–For Desktop based Application</span>
+                    </div>
+                </div>
+                <!-- End Module 8 : Tkinter GUI Framework–For Desktop based Application Heading -->
+
+                <!-- Start Module 8 : Tkinter GUI Framework–For Desktop based Application Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Overview of Tkinter framework</li>
+                            <li>Tkinter Button,Canvas</li>
+                            <li>Entry,Label</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 8 : Tkinter GUI Framework–For Desktop based Application Content -->
+
+                <!-- Start Django Framework Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Django Framework
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Django Framework Heading -->
+
+                <!-- Start Django with MySQL Database Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                Django with MySQL Database
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Django with MySQL Database Heading -->
+
+                <!-- Start Django with SQLite Database Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Django with SQLite Database
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Django with SQLite Database Heading -->
+
+                <!-- Start Django REST API(Restful Services) Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="4">
+                            <li>
+                                Django REST API(Restful Services)
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Django REST API(Restful Services) Heading -->
+
+                <!-- Start Module 9 : Artificial Intelligence & Machine Learning Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 9 : <span class="module-heading-smaller">Artificial Intelligence & Machine Learning</span>
+                    </div>
+                </div>
+                <!-- End Module 9 : Artificial Intelligence & Machine Learning Heading -->
+
+                <!-- Start Introduction to Python Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol>
+                            <li>
+                                Introduction to Python
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Introduction to Python Heading -->
+
+                <!-- Start Introduction to Python Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Python Basics</li>
+                            <li>Python Functions and Packages</li>
+                            <li>Working with Data Structures, Arrays, Vectors & Data Frames</li>
+                            <li class="list-unstyled">Read More...</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Introduction to Python Content -->
+
+                <!-- Start EDA and Data Processing Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="2">
+                            <li>
+                                EDA and Data Processing
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End EDA and Data Processing Heading -->
+
+                <!-- Start Applied Statistics Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        <ol start="3">
+                            <li>
+                                Applied Statistics
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- End Applied Statistics Heading -->
+
+                <!-- Start Machine Learning Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        Machine Learning
+                    </div>
+                </div>
+                <!-- End Machine Learning Heading -->
+
+                <!-- Start Machine Learning Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ol>
+                            <li>Supervised learning</li>
+                            <li>Ensemble Techniques</li>
+                            <li>Unsupervised learning</li>
+                            <li>Featurisation, Model Selection & Tuning</li>
+                            <li>Recommendation Systems</li>
+                        </ol>
+                    </div>
+
+                </div>
+                <!-- End Machine Learning Content -->
+
+                <!-- Start Artificial Intelligence Heading -->
+                <div class="row">
+                    <div class="col-md-12 ml-module-heading">
+                        Artificial Intelligence
+                    </div>
+                </div>
+                <!-- End Artificial Intelligence Heading -->
+
+                <!-- Start Artificial Intelligence Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ol>
+                            <li>Introduction to Neural Networks and Deep Learning</li>
+                            <li>Computer Vision</li>
+                            <li>NLP (Natural Language Processing)</li>
+                            <li>Introduction to Reinforcement Learning (RL)</li>
+                            <li>Introduction to GANs (Generative Adversarial Networks)</li>
+                            <li>Additional Module</li>
+                        </ol>
+                    </div>
+
+                </div>
+                <!-- End Artificial Intelligence Content -->
+
+            </div>
+
+        </div>
+        <!-- End Module row 1 -->
+
+
+        <!-- Start Duration -->
+        <div class="row border border-light border-right-0 border-bottom-0 border-left-0">
+            <div class="col-md-12 syllabus-duration">
+                Duration - 6 Months
+            </div>
+        </div>
+        <!-- End Duration -->
+
+    </div>
+</div>
+<!-- End Syllabus -->
+
+<!-- Start brochure model -->
+<div class="modal fade brochure-modal" id="modal_downlaod_brochure">
+    <div class="modal-dialog modal-dialog-scrollable ">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row modal-contact-form-company-info">
+
+                    <!-- Start brochure image -->
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="{% static 'img/training-program-full-stack-aiml-model-img.png' %}" alt="snable">
+                    </div>
+                    <!-- End brochure image -->
+
+                    <!-- Start Form -->
+                    <div class="col-md-8 modal-contact-form">
+
+                        <!-- Start Form Close Button -->
+                        <div class="row pt-2">
+                            <div class="col-md-12 text-right">
+                                <a href="#" data-dismiss="modal" class="close">&times;</a>
+                            </div>
+                        </div>
+                        <!-- End Form Close Button -->
+
+                        <!-- Start Form heading -->
+                        <div class="row">
+                            <div class="col-md-12 form-heading">
+                                Get Your Brochure Copy
+                            </div>
+                        </div>
+                        <!-- Start Form heading -->
+
+                        <!-- Start Form sub heading-->
+                        <div class="row">
+                            <div class="col-md-12 form-sub-heading">
+                                Fill in the below details a personalised brochure
+                            </div>
+                        </div>
+                        <!-- Start Form sub heading-->
+
+                        <!-- Start name and mobile number -->
+                        <form method="POST" action="inserttrainingprogramfsdaimlbrochurerecord" class="needs-validation" novalidate>
+                            {% csrf_token %}
+                            <!-- Start Full name, Mobile number -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Name" name="full_name" required />
+                              </div>
+                              <div class="col-md-6 col-5 modal-contact-form-input-text-box pl-0">
+                                 <input type="number" class="form-control" placeholder="Mobile Number" name="mobile_number" id="modal_mynum" required />
+                              </div>
+                           </div>
+                           <!-- End Full name, Mobile number -->
+
+                            <!-- Start Email address, Qualification -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Email" name="email_id" id="modal_myemail" required />
+                              </div>
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Qualification" name="qualification" required />
+                              </div>
+                           </div>
+                           <!-- End Email address, Qualification -->
+
+                              <!-- Start Address -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Address" name="address" required />
+                              </div>
+                           </div>
+                           <!-- End Address -->
+
+                            <!-- Start terms and condition our privacy policy -->
+                            <div class="row form-group form-check">
+                                <div class="col-md-12 terms-condition-privacy-policy form-check-label">
+                                    <input class="form-check-input" type="checkbox"> By submitting the form, you agree to our
+                                    <a href="{% url 'termsandcondition' %}" class="text-decoration-none" target="_blank">Terms and Conditions</a>.
+                                    and
+                                     <a href="{% url 'privacypolicy' %}" class="text-decoration-none" target="_blank">Our Privacy Policy</a>.
+                                </div>
+                            </div>
+                            <!-- End terms and condition our privacy policy -->
+
+                            <div class="row modal-contact-form-btn">
+                                  <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Download Brochure
+                                    </button>
+                                  </div>
+                            </div>
+                        </form>
+                        <!-- End name and mobile number -->
+
+                    </div>
+                    <!-- End Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End brochure model -->
+
+<!-- Start brochure model -->
+<div class="modal fade brochure-modal" id="modal_downlaod_brochure_mobile_view">
+    <div class="modal-dialog modal-dialog-scrollable ">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <!-- Start Form Close Button -->
+                <div class="row pt-2">
+                    <div class="col-md-12 text-right">
+                        <a href="#" data-dismiss="modal" class="close">&times;</a>
+                    </div>
+                </div>
+                <!-- End Form Close Button -->
+
+                <!-- Start Form heading -->
+                <div class="row">
+                    <div class="col-md-12 form-heading">
+                        Get Your Brochure Copy
+                    </div>
+                </div>
+                <!-- Start Form heading -->
+
+                <!-- Start Form sub heading-->
+                <div class="row">
+                    <div class="col-md-12 form-sub-heading">
+                        Fill in the below details a personalised brochure
+                    </div>
+                </div>
+                <!-- Start Form sub heading-->
+
+                <!-- Start brochure image -->
+                <div class="row">
+                    <div class="col-md-12 pt-2 pl-0">
+                        <img class="img-fluid" src="{% static 'img/training-program-full-stack-aiml-model-img-mobile-view.png' %}" alt="snable" width="100%">
+                    </div>
+                </div>
+                <!-- End brochure image -->
+
+
+                <div class="row modal-contact-form-company-info">
+
+                    <!-- Start Form -->
+                    <div class="col-md-12  modal-contact-form">
+
+                        <!-- Start name and mobile number -->
+                        <form method="POST" action="inserttrainingprogramfsdaimlbrochurerecord" class="needs-validation" novalidate>
+                            {% csrf_token %}
+                            <!-- Start Full name, Mobile number -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Name" name="full_name" required />
+                              </div>
+                              <div class="col-md-6 col-12 modal-contact-form-input-text-box ">
+                                 <input type="number" class="form-control" placeholder="Mobile Number" name="mobile_number" id="modal_mynum" required />
+                              </div>
+                           </div>
+                           <!-- End Full name, Mobile number -->
+
+                            <!-- Start Email address, Qualification -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Email" name="email_id" id="modal_myemail" required />
+                              </div>
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Qualification" name="qualification" required />
+                              </div>
+                           </div>
+                           <!-- End Email address, Qualification -->
+
+                              <!-- Start Address -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Address" name="address" required />
+                              </div>
+                           </div>
+                           <!-- End Address -->
+
+                            <!-- Start terms and condition our privacy policy -->
+                            <div class="row form-group form-check">
+                                <div class="col-md-12 terms-condition-privacy-policy form-check-label">
+                                    <input class="form-check-input" type="checkbox"> By submitting the form, you agree to our
+                                    <a href="{% url 'termsandcondition' %}" class="text-decoration-none" target="_blank">Terms and Conditions</a>.
+                                    and
+                                     <a href="{% url 'privacypolicy' %}" class="text-decoration-none" target="_blank">Our Privacy Policy</a>.
+                                </div>
+                            </div>
+                            <!-- End terms and condition our privacy policy -->
+
+                            <div class="row modal-contact-form-btn">
+                                  <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Download Brochure
+                                    </button>
+                                  </div>
+                            </div>
+                        </form>
+                        <!-- End name and mobile number -->
+
+                    </div>
+                    <!-- End Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End brochure model -->
+
+{% endblock main_body %}
+<!-- End Main body -->
+
+<!-- Start Contact US Form & Google Map -->
+{% block main_body_contact_form %}
+<div class="container-fluid">
+    <div class="row contact-us pl-5 pr-5 pb-3">
+          <!-- Start Contact Us Form -->
+      <div class="col-md-6">
+
+         <!-- Start Contact Us heading  -->
+         <div class="row contact-us-heading">
+            <div class="col-md-12">
+               Fill in your Details
+            </div>
+         </div>
+         <!-- End Contact Us heading  -->
+
+         <form method="post" action="insert_training_hiring_form" class="needs-validation" novalidate>
+            {% csrf_token %}
+
+            <!-- Start Full Name -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your full name" name="full_name" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Full Name -->
+
+            <!-- Start Qualification -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your Qualifications" name="qualifications" required />
+                  </div>
+               </div>
+            </div>
+            <!-- Start Qualification -->
+
+            <!-- Start Select Course -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <!--<input type="text" class="form-control" placeholder="Enter your full name" name="full_name" required />-->
+                     <select name="course_name" id="" class="form-control" required>
+                        <option value="">--- Select Course ---</option>
+                        <option value="UI & UX Design">UI & UX Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Hybrid Mobile App Development">Hybrid Mobile App Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Data Science & Machine Learning">Data Science & Machine Learning</option>
+                        <option value="Full Stack & AIML">Full Stack & AIML</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <!-- End Select Course -->
+
+            <!-- Start Email Address -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your email address" id="myemail" name="email_id" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Email Address -->
+
+            <!-- Start Mobile & Whatsapp number -->
+            <div class="row">
+               <!-- Start Mobile number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-solid fa-phone"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="mobile_number" id="mynum" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Mobile number-->
+               <!-- Start Whatsapp number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="whatsapp_number" id="mynum1" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Whatsapp number-->
+            </div>
+            <!-- End Mobile & Whatsapp number -->
+
+            <!-- Start Contact us form comments -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12 pr-1 pl-4">
+                  <div class="form-group">
+                     <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message"></textarea>
+                  </div>
+               </div>
+            </div>
+            <!-- End Contact us form comments -->
+
+            <!-- Start Submit button -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-4">
+                  <button type="submit" class="btn btn-outline-primary btn-block">Submit</button>
+               </div>
+
+               <div class="col-md-8 pt-3 text-white">
+                  {% for i in messages %}
+                  <!--{{i}} -->
+                  {% if i.tags %}
+                  <script>
+                     alert("{{ i }}");
+                  </script>
+                  {% endif %} {% endfor %}
+                  <!--{% if messages %}
+                     {% for message in messages %}
+                         {% if message.tags %}
+                                 <script>alert("{{ message }}")</script>
+                         {% endif %}
+                     {% endfor %}
+                     {% endif %}-->
+               </div>
+            </div>
+            <!-- End Submit button -->
+
+         </form>
+      </div>
+      <!-- End Contact Us Form -->
+
+        <!-- Start google map for address -->
+        <div class="col-md-6">
+            <div class="row google-map-address">
+                <div class="col-md-12 google-map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+                        width="600"
+                        height="450"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        width="100%"
+                        class="responsive-iframe"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- End google map for address -->
+    </div>
+    <div class="row mobile-view-google-map-address">
+        <div class="col-md-12 mobile-view-google-map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                width="100%"
+                class="responsive-iframe"
+            ></iframe>
+        </div>
+    </div>
+</div>
+{% endblock main_body_contact_form %}
+<!-- End Contact US Form & Google Map -->

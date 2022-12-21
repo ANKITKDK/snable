@@ -1,0 +1,1 @@
+$("#get_services_modal").change(function(){var a=$(this).val();$.ajax({url:"get_sub_services",data:{services:a},success:function(a){$("#get_sub_services_id_modal").html(a)}})})

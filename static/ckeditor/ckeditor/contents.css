@@ -1,0 +1,208 @@
+/*
+Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+*/
+
+body
+{
+	/* Font */
+	/* Emoji fonts are added to visualise them nicely in Internet Explorer. */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 12rem;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent. */
+	background-color: #fff;
+
+	margin: 20rem;
+}
+
+.cke_editable
+{
+	font-size: 13rem;
+	line-height: 1.6;
+
+	/* Fix for missing scrollbars with RTL texts. (#10488) */
+	word-wrap: break-word;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2rem 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20rem;
+	padding-right: 8rem;
+	border-left-width: 5rem;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8rem;
+	padding-right: 20rem;
+	border-right-width: 5rem;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0rem;
+	/* Preserved spaces for list items with text direction different than the list. (#6249,#8049)*/
+	padding: 0 40rem;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0rem;
+	border-top: 1rem solid #ccc;
+}
+
+img.right
+{
+	border: 1rem solid #ccc;
+	float: right;
+	margin-left: 15rem;
+	padding: 5rem;
+}
+
+img.left
+{
+	border: 1rem solid #ccc;
+	float: left;
+	margin-right: 15rem;
+	padding: 5rem;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+	font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	outline: solid 1rem #ccc;
+	background: rgba(0,0,0,0.05);
+	padding: 10rem;
+	margin: 10rem 20rem;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+a > img {
+	padding: 1rem;
+	margin: 1rem;
+	border: none;
+	outline: 1rem solid #0782C1;
+}
+
+/* Widget Styles */
+.code-featured
+{
+	border: 5rem solid red;
+}
+
+.math-featured
+{
+	padding: 20rem;
+	box-shadow: 0 0 2rem rgba(200, 0, 0, 1);
+	background-color: rgba(255, 0, 0, 0.05);
+	margin: 10rem;
+}
+
+.image-clean
+{
+	border: 0;
+	background: none;
+	padding: 0;
+}
+
+.image-clean > figcaption
+{
+	font-size: .9em;
+	text-align: right;
+}
+
+.image-grayscale
+{
+	background-color: white;
+	color: #666;
+}
+
+.image-grayscale img, img.image-grayscale
+{
+	filter: grayscale(100%);
+}
+
+.embed-240p
+{
+	max-width: 426rem;
+	max-height: 240rem;
+	margin:0 auto;
+}
+
+.embed-360p
+{
+	max-width: 640rem;
+	max-height: 360rem;
+	margin:0 auto;
+}
+
+.embed-480p
+{
+	max-width: 854rem;
+	max-height: 480rem;
+	margin:0 auto;
+}
+
+.embed-720p
+{
+	max-width: 1280rem;
+	max-height: 720rem;
+	margin:0 auto;
+}
+
+.embed-1080p
+{
+	max-width: 1920rem;
+	max-height: 1080rem;
+	margin:0 auto;
+}

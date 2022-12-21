@@ -1,0 +1,926 @@
+{% extends 'index.html' %} {% load static %}
+
+{% block meta_description %}
+<meta name="description" content="Snable Pvt Ltd is offering the Best Mobile App Development course for beginners. Enroll now and master the art of Android and iOS App development.">
+<meta name="keywords" content="android app development training, Mobile app development course for beginners, Mobile Development Courses">
+{% endblock meta_description %}
+
+{% block title %}
+<title>Mobile app development course for beginners | Snable Pvt Ltd</title>
+{% endblock title %}
+
+<!-- Own Home Screen CSS -->
+{% block own_css %}
+<link rel="stylesheet" href="{% static 'css/training-program-common-css.css' %}" />
+{% endblock own_css %}
+
+<!-- Start Slider -->
+{% block slider %}
+
+<div class="row slider pl-5 pr-5">
+    <div class="col-md-1"></div>
+    <!-- Start Sub Heading, Heading, Buttons -->
+    <div class="col-md-5 slider-heading-content-buttons">
+        <!-- Start Main Heading -->
+        <div class="row slider-heading">
+            <div class="col-md-12">
+                <h1>Hybrid Mobile App Development</h1>
+            </div>
+        </div>
+        <!-- End Main Heading -->
+        <!-- Start Traning and placement Button -->
+        <div class="row slider-buttons">
+            <div class="col-sm-6">
+                <a href="https://calendly.com/snablein/book-and-appointment" class="text-decoration-none" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block">Book an Appointment</button> &nbsp; </a>
+            </div>
+            <div class="col-sm-6">
+                <!--<a href="{{result.docs.url}}" class="text-decoration-none" target="_blank">
+                    <button type="button" class="btn btn-outline-primary btn-lg btn-block">
+                        Download brochure
+                    </button>            &nbsp;
+                </a>-->
+
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-target="#modal_downlaod_brochure" data-toggle="modal">
+                    Download brochure
+                </button>
+            </div>
+        </div>
+        <!-- Start Traning and placement Button -->
+    </div>
+    <!-- End Sub Heading, Heading, Buttons -->
+    <div class="col-md-1"></div>
+    <!-- Start Slider Image -->
+    <div class="col-md-4">
+        <div class="row slider-image">
+            <div class="col-md-12">
+                <img class="float-right img-fluid" src="{% static 'img/training-program-mobile-app-slider.png' %}" alt="Mobile-app-development-course-for-beginners" />
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Image -->
+    <div class="col-md-1"></div>
+</div>
+
+<!-- Start Traning and placement Button -->
+<div class="row mobile-view-slider-buttons pl-4 pr-4">
+    <div class="col-sm-6">
+        <a href="https://calendly.com/snablein/book-and-appointment" class="text-decoration-none" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block">Book an Appointment</button> &nbsp; </a>
+    </div>
+    <div class="col-sm-6">
+
+       <!-- <a href="{{result.docs.url}}" class="text-decoration-none" target="_blank">
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block">
+                Download brochure
+            </button>            &nbsp;
+        </a>-->
+
+
+        <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-target="#modal_downlaod_brochure_mobile_view" data-toggle="modal">
+                    Download brochure
+        </button>
+    </div>
+
+</div>
+<!-- Start Traning and placement Button -->
+
+{% endblock slider %}
+<!-- End Slider -->
+
+<!-- Start Main body -->
+{% block main_body %}
+
+<!-- Start Program Overview Heading -->
+<div class="row program-overview-heading">
+    <div class="col-md-12 ">
+        Program Overview
+    </div>
+</div>
+<!-- End Program Overview Heading -->
+
+<!-- Start Key Highlights heading -->
+<div class="row key-highlights-heading">
+    <div class="col-md-12 ">
+        Key Highlights
+    </div>
+</div>
+<!-- End Key Highlights heading -->
+
+<!-- Start Key Highlights content -->
+<div class="row key-highlights-content">
+    <div class="col-md-3 col-12 key-highlights-content-column">
+        <ul>
+            <li>1400+ Hours of Learning</li>
+            <li>Designed for freshers and professionals</li>
+            <li>15+ Case Studies and Assignments</li>
+            <li>6 Practical Hands-on Capstone Projects</li>
+            <li>No Cost EMI Options available</li>
+            <li>Dedicated Student Success Mentor</li>
+            <li>Learning management system</li>
+        </ul>
+    </div>
+    <div class="col-md-1 col-0"></div>
+    <div class="col-md-3 col-12">
+        <ul>
+            <li>Daily Doubt Resolution Sessions</li>
+            <li>Career Mentorship Sessions(1:1)</li>
+            <li>High Performance Coaching(1:1)</li>
+            <li>Exclusive Job opportunities</li>
+            <li>Personalised Industry Session</li>
+        </ul>
+    </div>
+    <div class="col-md-5 col-0"></div>
+</div>
+<!-- End Key Highlights content -->
+
+<!-- Start Tools Covered For UI/UX Design heading -->
+<div class="row tools-covered-heading">
+    <div class="col-md-12 ">
+        Tools Covered For Hybrid Mobile App Development
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design heading -->
+
+<!-- Start Tools Covered For UI/UX Design icon -->
+<div class="row tools-covered-icon">
+
+    <!-- Start Android Studio -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-mobile-app-android-studio.png' %}" alt="Android-Studio-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Android Studio
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Android Studio -->
+
+    <!-- Start Java -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-mobile-app-java.png' %}" alt="Java-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Java
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Java -->
+
+    <!-- Start Flutter -->
+    <div class="col-md-1 col-sm-6 col-2">
+        <!-- Start Icon -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="{% static 'img/training-program-mobile-app-flutter.png' %}" alt="Flutter-img">
+            </div>
+        </div>
+        <!-- End Icon -->
+        <!-- Start Heading -->
+        <div class="row">
+            <div class="col-md-12 text-center tools-content">
+                Flutter
+            </div>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Flutter -->
+
+</div>
+<!-- End Tools Covered For UI/UX Design icon -->
+
+
+<!-- Start Tools Covered For UI/UX Design/ description heading -->
+<div class="row course-description">
+    <div class="col-md-12 ">
+        Description
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design/ description heading -->
+
+<!-- Start Key Highlights content / General Content -->
+<div class="row key-highlights-content">
+    <div class="col-md-12">
+        The official language for Hybrid Mobile App Development is Java. Large parts of Hybrid are written in Java and its APIs are designed to be called primarily from Java. It is possible to develop C and C++ app using the Hybrid Native Development Kit (NDK), however it isn't something that Google promotes.
+    </div>
+</div>
+<!-- End Key Highlights content / General Content -->
+
+<!-- Start Tools Covered For UI/UX Design/ Skills You Will Learn heading -->
+<div class="row skills-you-will-learn-heading">
+    <div class="col-md-12 ">
+       Skills You Will Learn
+    </div>
+</div>
+<!-- End Tools Covered For UI/UX Design/ Skills You Will Learn heading -->
+
+<!-- Start Key Highlights content / General Content -->
+<div class="row key-highlights-content">
+    <div class="col-md-12">
+        <ol>
+            <li>Java Programming</li>
+            <li>Server scripting</li>
+            <li>API Development</li>
+            <li>Learn about different types of libraries</li>
+        </ol>
+    </div>
+</div>
+<!-- End Key Highlights content / General Content -->
+
+<!-- Start Syllabus -->
+<div class="row syllabus">
+    <div class="col-md-12">
+
+        <!-- Start Heading -->
+        <div class="row syllabus-heading">
+            <div class="col-md-12 ">
+                Syllabus
+            </div>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Start Module row 1 -->
+        <div class="row ">
+            <div class="col-md-6">
+
+                <!-- Start Module 1 : Android Basics Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 1 : <span class="module-heading-smaller">Android Basics</span>
+                    </div>
+                </div>
+                <!-- End Module 1 : Android Basics Heading -->
+
+                <!-- Start Module 1 : Android Basics Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Running Our Own Hello World Application.</li>
+                            <li>Overview Of The Interface.</li>
+                            <li>Learn About Android Studio.</li>
+                            <li>How To Create An Android Virtual Device.</li>
+                            <li>Android Application Overview.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 1 : Android Basics Content -->
+
+                <!-- Start Module 2 : Activities And States Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 2 : <span class="module-heading-smaller">Activities And States</span>
+                    </div>
+                </div>
+                <!-- End Module 2 : Activities And States Heading -->
+
+                <!-- Start Module 2 : Activities And States Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Understanding Activity States</li>
+                            <li>Building The User Interface</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 2 : Activities And States Content -->
+
+                <!-- Start Module 3 : widgets,pixels and Layout Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 3 : <span class="module-heading-smaller">Widgets, pixels and Layout</span>
+                    </div>
+                </div>
+                <!-- End Module 3 : widgets,pixels and Layout Heading -->
+
+                <!-- Start Module 3 : widgets,pixels and Layout Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Add Properties To Widgets.</li>
+                            <li>To Add Multiple Widgets.</li>
+                            <li>How To Convert DIP To Pixels.</li>
+                            <li>Understanding Layouts: Grid Layout, LinearLayout ,relative layout,constranint layout.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 3 : widgets,pixels and Layout Content -->
+
+                <!-- Start Module 4 : Event Handling Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 4 : <span class="module-heading-smaller">Event Handling</span>
+                    </div>
+                </div>
+                <!-- End Module 4 : Event Handling Heading -->
+
+                <!-- Start Module 4 : Event Handling Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>How To Handle Events In Android</li>
+                            <li>How To Use Event Listener</li>
+                            <li>To Add Multiple Event Listeners</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 4 : Event Handling Content -->
+
+                <!-- Start Module 5 : Button And App Design Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 5 : <span class="module-heading-smaller">Button And App Design</span>
+                    </div>
+                </div>
+                <!-- End Module 5 : Button And App Design Heading -->
+
+                <!-- Start Module 6 : text And animation Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 6 : <span class="module-heading-smaller">Text And animation</span>
+                    </div>
+                </div>
+                <!-- End Module 6 : text And animation Heading -->
+
+                <!-- Start Module 7 : intents Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 7 : <span class="module-heading-smaller">Intents</span>
+                    </div>
+                </div>
+                <!-- End Module 7 : intents Heading -->
+
+                <!-- Start Module 8 : sharedPreference Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 8 : <span class="module-heading-smaller">Shared Preference</span>
+                    </div>
+                </div>
+                <!-- End Module 8 : sharedPreference Heading -->
+
+                 <!-- Start Module 9 : ListVIew Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 9 : <span class="module-heading-smaller">List View</span>
+                    </div>
+                </div>
+                <!-- End Module 9 : ListVIew Heading -->
+
+                <!-- Start Module 10 : recyclerview And adaptersModule 12 : creating Api Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 10 : <span class="module-heading-smaller">Recyclerview And Adapters</span>
+                    </div>
+                </div>
+                <!-- End Module 10 : recyclerview And adaptersModule 12 : creating Api Heading -->
+
+            </div>
+
+            <div class="col-md-6">
+
+                <!-- Start Module 11 : Retrofit Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 11 : <span class="module-heading-smaller">Retrofit</span>
+                    </div>
+                </div>
+                <!-- End Module 11 : Retrofit Heading -->
+
+                <!-- Start Module 11 : Retrofit Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Creating request and response</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 11 : Retrofit Content -->
+
+                <!-- Start Module 12 : creating Api Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 12 : <span class="module-heading-smaller">Creating API</span>
+                    </div>
+                </div>
+                <!-- End Module 12 : creating Api Heading -->
+
+                <!-- Start Module 13 : All about mysql -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 13 : <span class="module-heading-smaller">All About MySql</span>
+                    </div>
+                </div>
+                <!-- End Module 13 : All about mysql -->
+
+                <!-- Start Module 13 : All about mysql -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Creating data base.</li>
+                            <li>Creating table.</li>
+                            <li>Applying sql.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 13 : All about mysql -->
+
+                <!-- Start Module 14 : How to use Github for pushing projects and using different libraries and dependancies Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 14 : <span class="module-heading-smaller">How to use Github for pushing projects and using different libraries and dependencies</span>
+                    </div>
+                </div>
+                <!-- End Module 14 : How to use Github for pushing projects and using different libraries and dependancies Heading -->
+
+                <!-- Start Module 15 : Understand some most used 3rd party dependancy Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 15 : <span class="module-heading-smaller">Understand some most used 3rd party dependencies</span>
+                    </div>
+                </div>
+                <!-- End Module 15 : Understand some most used 3rd party dependancy Heading -->
+
+                <!-- Start Module 16 : creating project Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 16 : <span class="module-heading-smaller">Creating project</span>
+                    </div>
+                </div>
+                <!-- End Module 16 : creating project Heading -->
+
+                <!-- Start Module 16 : creating project Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Complete ecommerce app</li>
+                            <li>Complete social networking app</li>
+                            <li>Chat app</li>
+                            <li>Quick to play games</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 16 : creating project Content -->
+
+                <!-- Start Module 17 : Google Firebase Heading -->
+                <div class="row">
+                    <div class="col-md-12 module-heading">
+                        Module 17 : <span class="module-heading-smaller">Google Firebase</span>
+                    </div>
+                </div>
+                <!-- End Module 17 : Google Firebase Heading -->
+
+                <!-- Start Module 17 : Google Firebase Content -->
+                <div class="row">
+                    <div class="col-md-12 module-content">
+                        <ul>
+                            <li>Cloud messaging</li>
+                            <li>Fire store</li>
+                            <li>Run time data base</li>
+                            <li>Notification</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Module 17 : Google Firebase Content -->
+
+                <!-- Start Module 18 : understanding how to use different api Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 18 : <span class="module-heading-smaller">Understanding how to use different API</span>
+                    </div>
+                </div>
+                <!-- End Module 18 : understanding how to use different api Heading -->
+
+                <!-- Start Module 19 : implementing payment gatewa  Heading -->
+                <div class="row pb-3">
+                    <div class="col-md-12 module-heading">
+                        Module 19 : <span class="module-heading-smaller">Implementing payment gateway</span>
+                    </div>
+                </div>
+                <!-- End Module 19 : implementing payment gatewa  Heading -->
+
+            </div>
+
+        </div>
+        <!-- End Module row 1 -->
+
+
+        <!-- Start Duration -->
+        <div class="row border border-light border-right-0 border-bottom-0 border-left-0">
+            <div class="col-md-12 syllabus-duration">
+                Duration - 6 Months
+            </div>
+        </div>
+        <!-- End Duration -->
+
+    </div>
+</div>
+<!-- End Syllabus -->
+
+<!-- Start brochure model -->
+<div class="modal fade brochure-modal" id="modal_downlaod_brochure">
+    <div class="modal-dialog modal-dialog-scrollable ">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row modal-contact-form-company-info">
+
+                    <!-- Start brochure image -->
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="{% static 'img/training-program-mobile-app-model-img.png' %}" alt="snable">
+                    </div>
+                    <!-- End brochure image -->
+
+                    <!-- Start Form -->
+                    <div class="col-md-8 modal-contact-form">
+
+                        <!-- Start Form Close Button -->
+                        <div class="row pt-2">
+                            <div class="col-md-12 text-right">
+                                <a href="#" data-dismiss="modal" class="close">&times;</a>
+                            </div>
+                        </div>
+                        <!-- End Form Close Button -->
+
+                        <!-- Start Form heading -->
+                        <div class="row">
+                            <div class="col-md-12 form-heading">
+                                Get Your Brochure Copy
+                            </div>
+                        </div>
+                        <!-- Start Form heading -->
+
+                        <!-- Start Form sub heading-->
+                        <div class="row">
+                            <div class="col-md-12 form-sub-heading">
+                                Fill in the below details a personalised brochure
+                            </div>
+                        </div>
+                        <!-- Start Form sub heading-->
+
+                        <!-- Start name and mobile number -->
+                        <form method="POST" action="inserttrainingprogrammobileappbrochurerecord" class="needs-validation" novalidate>
+                            {% csrf_token %}
+                            <!-- Start Full name, Mobile number -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Name" name="full_name" required />
+                              </div>
+                              <div class="col-md-6 col-5 modal-contact-form-input-text-box pl-0">
+                                 <input type="number" class="form-control" placeholder="Mobile Number" name="mobile_number" id="modal_mynum" required />
+                              </div>
+                           </div>
+                           <!-- End Full name, Mobile number -->
+
+                            <!-- Start Email address, Qualification -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Email" name="email_id" id="modal_myemail" required />
+                              </div>
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Qualification" name="qualification" required />
+                              </div>
+                           </div>
+                           <!-- End Email address, Qualification -->
+
+                              <!-- Start Address -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="Address" name="address" required />
+                              </div>
+                           </div>
+                           <!-- End Address -->
+
+                            <!-- Start terms and condition our privacy policy -->
+                            <div class="row form-group form-check">
+                                <div class="col-md-12 terms-condition-privacy-policy form-check-label">
+                                    <input class="form-check-input" type="checkbox"> By submitting the form, you agree to our
+                                    <a href="{% url 'termsandcondition' %}" class="text-decoration-none" target="_blank">Terms and Conditions</a>.
+                                    and
+                                     <a href="{% url 'privacypolicy' %}" class="text-decoration-none" target="_blank">Our Privacy Policy</a>.
+                                </div>
+                            </div>
+                            <!-- End terms and condition our privacy policy -->
+
+                            <div class="row modal-contact-form-btn">
+                                  <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Download Brochure
+                                    </button>
+                                  </div>
+                            </div>
+                        </form>
+                        <!-- End name and mobile number -->
+
+                    </div>
+                    <!-- End Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End brochure model -->
+
+<!-- Start brochure model mobile view -->
+<div class="modal fade brochure-modal" id="modal_downlaod_brochure_mobile_view">
+    <div class="modal-dialog modal-dialog-scrollable ">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Start Form Close Button -->
+                <div class="row pt-2">
+                    <div class="col-md-12 text-right">
+                        <a href="#" data-dismiss="modal" class="close">&times;</a>
+                    </div>
+                </div>
+                <!-- End Form Close Button -->
+
+                <!-- Start Form heading -->
+                <div class="row">
+                    <div class="col-md-12 form-heading">
+                        Get Your Brochure Copy
+                    </div>
+                </div>
+                <!-- Start Form heading -->
+
+                <!-- Start Form sub heading-->
+                <div class="row">
+                    <div class="col-md-12 form-sub-heading">
+                        Fill in the below details a personalised brochure
+                    </div>
+                </div>
+                <!-- Start Form sub heading-->
+
+                <!-- Start brochure image -->
+                <div class="row">
+                    <div class="col-md-12 pt-2 pl-0">
+                        <img class="img-fluid" src="{% static 'img/training-program-mobile-app-model-img-mobile-view.png' %}" alt="snable" width="100%">
+                    </div>
+                </div>
+                <!-- End brochure image -->
+
+                <div class="row modal-contact-form-company-info">
+                    <!-- Start Form -->
+                    <div class="col-md-12 modal-contact-form">
+                        <!-- Start name and mobile number -->
+                        <form method="POST" action="inserttrainingprogrammobileappbrochurerecord" class="needs-validation" novalidate>
+                            {% csrf_token %}
+                            <!-- Start Full name, Mobile number -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Name" name="full_name" required />
+                              </div>
+                              <div class="col-md-6 col-12 modal-contact-form-input-text-box ">
+                                 <input type="number" class="form-control" placeholder="Mobile Number" name="mobile_number" id="modal_mynum" required />
+                              </div>
+                           </div>
+                           <!-- End Full name, Mobile number -->
+
+                            <!-- Start Email address, Qualification -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Email" name="email_id" id="modal_myemail" required />
+                              </div>
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Qualification" name="qualification" required />
+                              </div>
+                           </div>
+                           <!-- End Email address, Qualification -->
+
+                              <!-- Start Address -->
+                           <div class="row modal-contact-form-input">
+                              <div class="col-md-6 col-12">
+                                 <input type="text" class="form-control" placeholder="Address" name="address" required />
+                              </div>
+                           </div>
+                           <!-- End Address -->
+
+                            <!-- Start terms and condition our privacy policy -->
+                            <div class="row form-group form-check">
+                                <div class="col-md-12 terms-condition-privacy-policy form-check-label">
+                                    <input class="form-check-input" type="checkbox"> By submitting the form, you agree to our
+                                    <a href="{% url 'termsandcondition' %}" class="text-decoration-none" target="_blank">Terms and Conditions</a>.
+                                    and
+                                     <a href="{% url 'privacypolicy' %}" class="text-decoration-none" target="_blank">Our Privacy Policy</a>.
+                                </div>
+                            </div>
+                            <!-- End terms and condition our privacy policy -->
+
+                            <div class="row modal-contact-form-btn">
+                                  <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Download Brochure
+                                    </button>
+                                  </div>
+                            </div>
+                        </form>
+                        <!-- End name and mobile number -->
+
+                    </div>
+                    <!-- End Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End brochure model mobile view -->
+
+{% endblock main_body %}
+<!-- End Main body -->
+
+<!-- Start Contact US Form & Google Map -->
+{% block main_body_contact_form %}
+<div class="container-fluid">
+    <div class="row contact-us pl-5 pr-5 pb-3">
+          <!-- Start Contact Us Form -->
+      <div class="col-md-6">
+
+         <!-- Start Contact Us heading  -->
+         <div class="row contact-us-heading">
+            <div class="col-md-12">
+               Fill in your Details
+            </div>
+         </div>
+         <!-- End Contact Us heading  -->
+
+         <form method="post" action="insert_training_hiring_form" class="needs-validation" novalidate>
+            {% csrf_token %}
+
+            <!-- Start Full Name -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your full name" name="full_name" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Full Name -->
+
+            <!-- Start Qualification -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your Qualifications" name="qualifications" required />
+                  </div>
+               </div>
+            </div>
+            <!-- Start Qualification -->
+
+            <!-- Start Select Course -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <!--<input type="text" class="form-control" placeholder="Enter your full name" name="full_name" required />-->
+                     <select name="course_name" id="" class="form-control" required>
+                        <option value="">--- Select Course ---</option>
+                        <option value="UI & UX Design">UI & UX Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Hybrid Mobile App Development">Hybrid Mobile App Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Data Science & Machine Learning">Data Science & Machine Learning</option>
+                        <option value="Full Stack & AIML">Full Stack & AIML</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <!-- End Select Course -->
+
+            <!-- Start Email Address -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your email address" id="myemail" name="email_id" required />
+                  </div>
+               </div>
+            </div>
+            <!-- End Email Address -->
+
+            <!-- Start Mobile & Whatsapp number -->
+            <div class="row">
+               <!-- Start Mobile number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-solid fa-phone"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="mobile_number" id="mynum" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Mobile number-->
+               <!-- Start Whatsapp number-->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-2 col-3 contact-mobile-whats-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </div>
+                     <div class="col-md-10 col-9 c-u-form c-u-form-without-p">
+                        <div class="form-group pr-3">
+                           <input type="number" class="form-control" placeholder="Enter your number" name="whatsapp_number" id="mynum1" required />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Whatsapp number-->
+            </div>
+            <!-- End Mobile & Whatsapp number -->
+
+            <!-- Start Contact us form comments -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-12 pr-1 pl-4">
+                  <div class="form-group">
+                     <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message"></textarea>
+                  </div>
+               </div>
+            </div>
+            <!-- End Contact us form comments -->
+
+            <!-- Start Submit button -->
+            <div class="row c-u-form c-u-form-without-p">
+               <div class="col-md-4">
+                  <button type="submit" class="btn btn-outline-primary btn-block">Submit</button>
+               </div>
+
+               <div class="col-md-8 pt-3 text-white">
+                  {% for i in messages %}
+                  <!--{{i}} -->
+                  {% if i.tags %}
+                  <script>
+                     alert("{{ i }}");
+                  </script>
+                  {% endif %} {% endfor %}
+                  <!--{% if messages %}
+                     {% for message in messages %}
+                         {% if message.tags %}
+                                 <script>alert("{{ message }}")</script>
+                         {% endif %}
+                     {% endfor %}
+                     {% endif %}-->
+               </div>
+            </div>
+            <!-- End Submit button -->
+
+         </form>
+      </div>
+      <!-- End Contact Us Form -->
+
+        <!-- Start google map for address -->
+        <div class="col-md-6">
+            <div class="row google-map-address">
+                <div class="col-md-12 google-map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+                        width="600"
+                        height="450"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        width="100%"
+                        class="responsive-iframe"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- End google map for address -->
+    </div>
+    <div class="row mobile-view-google-map-address">
+        <div class="col-md-12 mobile-view-google-map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.994315605251!2d79.0599659!3d21.1127928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb961cf6806a0ad6e!2sSnable%20Private%20Limited%20%7C%20SaaS%20Based%20Organization%20%7C%20Information%20Technologies%20%7C%20Digital%20Marketing%20%7C%20Mobile%20Application%20Development!5e0!3m2!1sen!2sin!4v1648702479280!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                width="100%"
+                class="responsive-iframe"
+            ></iframe>
+        </div>
+    </div>
+</div>
+{% endblock main_body_contact_form %}
+<!-- End Contact US Form & Google Map -->

@@ -1,0 +1,786 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url('Quicksand-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+	font-family: "Nunito";
+	src: url('Nunito-VariableFont_wght.ttf');
+  }
+
+
+  :root
+  {
+	  --color-text-1:#3F4C6E;
+	  --color-text-2:#5D636E;
+	  --color-text-4:#fff;
+	  --color-button-1:#87A9FD;
+	  --font-family-q-sand :"Quicksand";
+	  --font-family-nunito :"Nunito";
+  }
+
+html
+{
+    font-size: 100%;
+}
+
+  body
+  {
+	  font-family: var(--font-family-nunito);
+	  margin: 0;
+  }
+
+  svg {
+	width: 100%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link
+  {
+	  color: var(--color-text-1);
+	  padding-right: 1.563rem;
+	  padding-left: 1.563rem;
+
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover
+  {
+	  color: var(--color-text-1);
+	  border-radius: 0.5rem;
+	  background-color: rgba(97,126,209,18%);
+  }
+
+  .navbar-dark .navbar-nav .nav-link:focus
+  {
+	  color: var(--color-text-1);
+	  border-radius: 0.5rem;
+	  background-color: rgba(97,126,209,18%);
+  }
+
+
+  /* Start Mobile View navbar CSS */
+  @media all and (min-width: 767px)
+  {
+	  .dropdown-menu
+	  {
+		  border-radius: 1.25rem;
+		  padding: 1.875rem;
+	  }
+	  .dropdown-menu a
+	  {
+		  border: 0.063rem solid #6c8cde44;
+		  margin-top:0.188rem;
+		  border-radius: 0.625rem;
+		  font-size: 1rem;
+		  padding: 0.938rem;
+		  color: var(--color-text-2);
+	  }
+  }
+
+  @media all and (max-width:766px)
+  {
+	  .navbar-collapse
+	  {
+		  background: rgba(255, 255, 255, 0.85);
+		  box-shadow: 0.25rem 0.25rem 0.5rem rgba(108, 141, 222, 0.14);
+		  border-radius: 0.375rem;
+		  padding:0.938rem;
+	  }
+
+	  .navbar-dark .navbar-nav .nav-link
+	  {
+		  font-family: var(--font-family-nunito);
+		  font-style: normal;
+		  font-weight: 400;
+		  font-size: 0.875rem;
+		  line-height: 1.188rem;
+		  color: var(--color-text-2);
+		  border:0.063rem solid rgba(108,141,222,20%);
+		  border-radius:0.375rem;
+		  margin-top:0.125rem;
+	  }
+
+	  .dropdown-menu
+	  {
+		  border-radius: 0.375rem;
+		  padding: 0.938rem;
+	  }
+
+	  .dropdown-menu a
+	  {
+		  font-family: var(--font-family-nunito);
+		  font-style: normal;
+		  font-weight: 400;
+		  font-size: 0.625rem;
+		  line-height: 1.188rem;
+		  color: var(--color-text-2);
+		  border:0.063rem solid rgba(108,141,222,20%);
+		  border-radius:0.375rem;
+		  margin-top:0.125rem;
+	  }
+
+	  .navbar-dark .navbar-toggler
+	  {
+		  color: #fff;
+		  border-color: rgba(255,255,255,.1);
+	  }
+
+	  .navbar-toggler
+	  {
+		  padding: 0.25rem 0.313rem;
+		  font-size: 1.188rem;
+		  line-height: 1;
+		  background-color: transparent;
+		  border: 0rem solid transparent;
+		  border-radius: 0.25rem;
+	  }
+
+  }
+  /* End Mobile View navbar CSS */
+
+
+  h1,h2,h3
+  {
+	  font-family: "Quicksand";
+  }
+
+  h1
+  {
+	  font-size: 4rem;
+	  font-weight: bold;
+	  color: #fff;
+  }
+
+  /* Don't delete main-body css it will be use other css files*/
+  .main-body
+  {
+	 /* background-image: url('../img/main-body-background.png');*/
+	  background-repeat: no-repeat;
+	  /* background-attachment: fixed; */
+	  /* background-position: center; */
+  }
+
+
+  /* Use this all responsive button */
+
+  /* btn-primary use for background button */
+  .btn-primary
+  {
+	  color: #fff;
+	  background-color: var(--color-button-1);
+	  border-color: var(--color-button-1);
+	  border-radius:0.625rem;
+  }
+
+  .btn-primary .disabled, .btn-primary:disabled
+  {
+	  color: #fff;
+	  background-color: var(--color-button-1);
+	  border-color: var(--color-button-1);
+  }
+
+  .btn-primary:hover
+  {
+	  color: var(--color-text-1);
+	  background-color: #C6D4F8;
+	  border-color: #C6D4F8;
+	  border-radius:0.625rem;
+  }
+  .btn-primary:focus
+  {
+	  box-shadow: none;
+	  color: var(--color-text-1);
+	  background-color: #C6D4F8;
+	  border-color: #C6D4F8;
+	  border-radius:0.625rem;
+  }
+
+  /* .btn-outline-primary --  text and border white in color */
+  .btn-outline-primary {
+	   color: var(--color-text-4);
+	   border-color: var(--color-text-4);
+	   border-radius:0.625rem;
+  }
+
+  .btn-outline-primary:focus {
+	  box-shadow: none;
+	  color: var(--color-text-1);
+	  background-color: #C6D4F8;
+	  border-color: #C6D4F8;
+	  border-radius:0.625rem;
+  }
+
+  .btn-outline-primary:hover {
+	  color: var(--color-text-1);
+	  background-color: #C6D4F8;
+	  border-color: #C6D4F8;
+	  border-radius:0.625rem;
+  }
+
+  .btn-outline-primary:disabled
+  {
+	  color : var(--color-text-4);
+  }
+
+  /* .btn-outline-secondary --  text and border dark in color */
+  .btn-outline-secondary {
+	  color: var(--color-text-1);
+	  border-color: var(--color-text-1);
+	  border-radius: 0.625rem;
+  }
+
+  .btn-outline-secondary:hover {
+	 color: var(--color-text-1);
+	  background-color: #C6D4F8;
+	  border-color: #C6D4F8;
+	  border-radius:0.625rem;
+  }
+
+  /* main heading button - btn-lg */
+  /* Body button - btn */
+  /* Sub content buttons - btn-sm*/
+
+  .google-map-address
+  {
+	  padding-top:9.375rem;
+  }
+
+
+
+  /* Start Contact form modal CSS */
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form
+  {
+	  padding-top: 3.125rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-heading
+  {
+	  font-family: var(--font-family-q-sand);
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 3rem;
+	  line-height: 3.75rem;
+	  color: var(--color-text-1);
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input
+  {
+	  padding-top: 2.813rem;
+  }
+
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input input
+  {
+	  border-left:none;
+	  border-right:none;
+	  border-top:none;
+	 /* border-color: rgba(var(--color-text-1), 20%);*/
+	  border-radius: 0rem;
+	  width:100%;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input select
+  {
+	  border-left:none;
+	  border-right:none;
+	  border-top:none;
+	 /* border-color: rgba(var(--color-text-1), 20%);*/
+	  border-radius: 0rem;
+	  width:100%;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input .modal-contact-form-input-icon
+  {
+
+	  padding-left:0.313rem;
+	  border-bottom: 0.063rem solid rgb(63, 76, 110, 0.1);
+
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input input::placeholder
+  {
+	  font-family: var(--font-family-nunito);
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 0.875rem;
+	  line-height: 1.188rem;
+	  color: var(--color-text-2);
+	  padding-left: 1.563rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input .modal-contact-form-input-text-box input::placeholder
+  {
+
+	  padding-left: 0rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input textarea
+  {
+	  border-color: rgba(63, 76, 110, 0.2);
+	  color: var(--color-text-2);
+	  font-size: 0.875rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-btn
+  {
+	  padding:1.875rem 0rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info
+  {
+	  background: rgba(121, 151, 226);
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-close-icon
+  {
+	  padding-top: 1.875rem;
+	  color: var(--color-text-4);
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-close-icon a
+  {
+	  color: var(--color-text-4);
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-heading
+  {
+	  font-family: var(--font-family-q-sand);
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 3rem;
+	  line-height: 3.75rem;
+	  color: var(--color-text-4);
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-mobile-number
+  {
+	  font-family: var(--font-family-nunito);
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 0.875rem;
+	  line-height: 145%;
+	  color: var(--color-text-4);
+	  padding-top: 2.75rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-whatsapp-number
+  {
+	  font-family: var(--font-family-nunito);
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 0.875rem;
+	  line-height: 145%;
+	  color: var(--color-text-4);
+	  padding-top: 0.875rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-follow-icons
+  {
+	  padding-top: 3.125rem;
+  }
+
+  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-follow-icons a
+  {
+	  color: var(--color-text-4);
+	  border: 0.063rem solid;
+	  border-color: var(--color-text-4);
+	  padding: 0.125rem;
+	  text-align: center;
+	  margin-left:0.313rem;
+  }
+  /* End Contact form modal CSS */
+
+
+  /* Start Mobile View Contact form modal CSS */
+  @media all and (min-width: 767px)
+  {
+	  .mobile-view-contact-close-btn
+	  {
+		  display:none;
+	  }
+  }
+
+  @media all and (max-width: 766px)
+  {
+	  .modal .modal-body .modal-contact-form-company-info .modal-contact-form
+	  {
+		  padding: 1rem 3.75rem 0rem 2.188rem;
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-heading
+	  {
+		  font-family: var(--font-family-q-sand);
+		  font-style: normal;
+		  font-weight: 700;
+		  font-size: 1.375rem;
+		  line-height: 1.75rem;
+		  color:  var(--color-text-1);
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input
+	  {
+		  padding-top: 0.625rem;
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-contact-form .modal-contact-form-input input::placeholder
+	  {
+		  font-family: var(--font-family-nunito);
+		  font-style: normal;
+		  font-weight: 400;
+		  font-size: 0.875rem;
+		  line-height: 1.188rem;
+		  color: var(--color-text-2);
+		  padding-left: 0.625rem;
+
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info
+	  {
+		  padding:0.625rem 1.875rem 1.25rem;
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-close-icon
+	  {
+		  padding-top: 1.875rem;
+		  color: var(--color-text-4);
+		  display:none;
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-heading
+	  {
+		  font-family: var(--font-family-q-sand);
+		  font-style: normal;
+		  font-weight: 700;
+		  font-size: 1rem;
+		  line-height: 1.25rem;
+		  color: var(--color-text-4);
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-mobile-number,
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-whatsapp-number
+	  {
+		  padding-top: 0.75rem;
+		  font-family: var(--font-family-nunito);
+		  font-style: normal;
+		  font-weight: 400;
+		  font-size: 0.75rem;
+		  line-height: 145%;
+		  color: var(--color-text-4);
+	  }
+
+	  .modal .modal-body .modal-contact-form-company-info .modal-company-info .modal-company-info-follow-icons
+	  {
+		  padding-top: 0.625rem;
+	  }
+  }
+  /* End Mobile View Contact form modal CSS */
+
+
+
+
+
+
+  /*
+  Start
+  header wave
+  background
+  css
+  */
+
+  .header {
+	  position: relative;
+	  /* text-align: center; */
+	  background: -o-linear-gradient(30deg, rgba(54, 92, 158, 1) 0%, rgba(54, 92, 158, 0) 100%);
+	  background: linear-gradient(60deg, rgba(54, 92, 158, 1) 0%, rgba(54, 92, 158, 0) 100%);
+	  color: #fff;
+  }
+
+
+
+  .content {
+	  position: relative;
+	  height: 20vh;
+	  /* text-align: center; */
+	  background-color: #fff;
+  }
+
+  .flex {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: center;
+		  -ms-flex-pack: center;
+			  /* justify-content: center; */
+	  -webkit-box-align: center;
+		  -ms-flex-align: center;
+			  align-items: center;
+	  text-align: center;
+  }
+
+  .waves {
+	  position: relative;
+	  width: 100%;
+	  height: 15vh;
+	  margin-bottom: -0.438rem;
+	  min-height: 6.25rem;
+	  max-height: 6.25rem;
+  }
+
+  .parallax > use {
+	  -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+			  animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+
+  .parallax > use:nth-child(1) {
+	  -webkit-animation-delay: -2s;
+			  animation-delay: -2s;
+	  -webkit-animation-duration: 9s;
+			  animation-duration: 9s;
+  }
+
+  .parallax > use:nth-child(2) {
+	  -webkit-animation-delay: -3s;
+			  animation-delay: -3s;
+	  -webkit-animation-duration: 12s;
+			  animation-duration: 12s;
+  }
+
+  .parallax > use:nth-child(3) {
+	  -webkit-animation-delay: -4s;
+			  animation-delay: -4s;
+	  -webkit-animation-duration: 15s;
+			  animation-duration: 15s;
+  }
+
+  .parallax > use:nth-child(4) {
+	  -webkit-animation-delay: -5s;
+			  animation-delay: -5s;
+	  -webkit-animation-duration: 22s;
+			  animation-duration: 22s;
+  }
+
+  @-webkit-keyframes moveForever {
+	  0% {
+		  -webkit-transform: translate3d(-5.625rem, 0, 0);
+				  transform: translate3d(-5.625rem, 0, 0);
+	  }
+	  100% {
+		  -webkit-transform: translate3d(5.313rem, 0, 0);
+				  transform: translate3d(5.313rem, 0, 0);
+	  }
+  }
+
+  @keyframes moveForever {
+	  0% {
+		  -webkit-transform: translate3d(-5.625rem, 0, 0);
+				  transform: translate3d(-5.625rem, 0, 0);
+	  }
+	  100% {
+		  -webkit-transform: translate3d(5.313rem, 0, 0);
+				  transform: translate3d(5.313rem, 0, 0);
+	  }
+  }
+
+  @media (max-width : 768px) {
+	  h1 {
+		  font-size: 1.5rem;
+	  }
+	  .content {
+		  height: 30vh;
+	  }
+	  .waves {
+		  height: 2.5rem;
+		  min-height: 2.5rem;
+	  }
+  }
+  /*
+  End
+  header wave
+  background
+  css
+  */
+
+
+  .footer
+  {
+	  background-color: #617ED1;
+	  color: #fff;
+	  padding-top: 1.25rem;
+	  padding-left:2.5rem;
+	  padding-right:2.5rem;
+  }
+
+  .footer ul li a
+  {
+	  color: #fff;
+  }
+
+  .footer .follow-icon a
+  {
+	  color: #fff;
+	  border-color: #fff;
+	  padding: 0.125rem;
+  }
+
+  /* Start Mobile View Footer CSS */
+  @media all and (min-width: 767px)
+  {
+	   .footer .footer-contact-us
+	  {
+		  border-top: 0.063rem solid rgba(255, 255, 255, 0.2);
+	  }
+
+	  .footer .footer-follow-icon
+	  {
+		  text-align:center;
+		  padding-top:3.25rem;
+	  }
+
+	  .footer .footer-company-logo
+	  {
+		  padding-top:0.625rem;
+	  }
+
+	  .mobile-nav
+	  {
+		  display:none;
+	  }
+  }
+
+  @media all and (max-width: 766px)
+  {
+	  .footer
+	  {
+		  background-color: #617ED1;
+		  color: #fff;
+		  padding-top: 1.25rem;
+		  padding-left: 0.625rem;
+		  padding-right: 0.625rem;
+	  }
+
+	  .footer .footer-contact-us
+	  {
+		  border-top: 0.063rem solid rgba(255, 255, 255, 0.2);
+	  }
+
+	  .footer .footer-follow-icon
+	  {
+		  text-align:left;
+		  padding-top:1.25rem;
+	  }
+
+	  .footer .footer-company-logo
+	  {
+		  padding-top:1.25rem;
+	  }
+
+	  .footer .footer-company-logo img
+	  {
+		  width:3.125rem;
+	  }
+
+	  .desktop-nav
+	  {
+		  display:none;
+	  }
+
+
+  }
+  /* End Mobile View Footer CSS */
+
+
+
+  /* copy-right */
+  .copy-right
+  {
+	  background-color:var(--color-text-1);
+  }
+
+  /* Start Privacy Policy Modal CSS */
+
+  .modal-dialog {
+	  max-width: 1200rem;
+	  margin: 1.75rem auto;
+  }
+  .privacy-policy-modal .modal-body .privacy-policy-heading
+  {
+	  font-family: var(--font-family-q-sand);
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 2.5rem;
+	  line-height: 3.125rem;
+	  color: var(--color-text-1);
+  }
+
+  .privacy-policy-modal .modal-body .privacy-policy-heading1
+  {
+	  padding-top:1.25rem;
+	  font-family: var(--font-family-q-sand);
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 2rem;
+	  line-height: 2.5rem;
+	  color: var(--color-text-1);
+  }
+  .privacy-policy-modal .modal-body .privacy-policy-heading2
+  {
+	  padding-top:1rem;
+	  font-family: var(--font-family-q-sand);
+	  font-style: normal;
+	  font-weight: 600;
+	  font-size: 1.5rem;
+	  line-height: 1.875rem;
+	  color: var(--color-text-1);
+  }
+
+  .privacy-policy-modal .modal-body .privacy-policy-heading3
+  {
+	  padding-top:1rem;
+	  font-family: var(--font-family-nunito);
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 1.25rem;
+	  line-height: 145%;
+	  color: #3F4C6E;
+  }
+
+  .privacy-policy-modal .modal-body .privacy-policy-content
+  {
+	  padding-top: 0.813rem;
+	  font-family: var(--font-family-nunito);
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 1rem;
+	  line-height: 145%;
+	  color: var(--color-text-2);
+  }
+  /* End Privacy Policy Modal CSS */
+
+
+ @media (min-width: 768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    html{
+        font-size: 60%;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    html{
+        font-size: 100%;
+    }
+}

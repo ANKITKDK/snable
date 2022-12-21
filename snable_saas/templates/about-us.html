@@ -1,0 +1,401 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block meta_description %}
+<meta name="description" content="Snable is a SaaS-based company in Nagpur that offers high-end E-commerce software development, IT business solutions, and Digital Marketing services.">
+<meta name="keywords" content="saas based company, top it companies in nagpur, it company in nagpur, ecommerce software solutions">
+{% endblock meta_description %}
+
+{% block title %}
+<title>IT Company in Nagpur | E-commerce Solutions | Snable Pvt Ltd.</title>
+{% endblock title %}
+
+<!-- Own Home Screen CSS -->
+<!-- Create new about us css and add in static folder-->
+{% block own_css %}
+<link rel="stylesheet" href="{% static 'css/home-screen.css' %}" />
+<link rel="stylesheet" href="{% static 'css/about-us.css' %}" />
+{% endblock own_css %}
+<!-- Own Home Screen CSS -->
+
+<!-- Start Slider -->
+{% block slider %}
+<div class="row slider pl-5 pr-5">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <!-- Start Haeding, Content, Button -->
+            <div class="col-md-3">
+                <!-- Start Traning and placement Heading -->
+                <div class="row about-heading text-center">
+                    <div class="col-md-12">
+                        <h1>About Us</h1>
+                    </div>
+                </div>
+                <!-- End Traning and placement Heading -->
+            </div>
+            <!-- End Haeding, Content, Button -->
+            <div class="col-md-1"></div>
+            <!-- Start Slider Image -->
+            <div class="col-md-3">
+                <div class="row slider-image">
+                    <div class="col-md-12">
+                        <img class="img-fluid" src="{% static 'img/about-us-header-image.png' %}" alt="it company in nagpur" />
+                    </div>
+                </div>
+            </div>
+            <!-- End Slider Image -->
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row text-justify mobile-view-about-us-content">
+    <div class="col-md-12 ">
+        Snable is a software product development services firm that combines cutting-edge technologies for online, Cloud, data, and devices to create world-class products and solutions. Snable helps organizations develop innovative products utilizing easily deployable and customized accelerators, with a digitalization strategy at the centre.
+    </div>
+</div>
+        <div class="row text-justify mobile-view-about-us-content">
+    <div class="col-md-12">
+        Snable, a SaaS-based company, offers solutions and services that assist organizations to produce high-quality business apps, Ecommerce apps and greater consumer interaction by reducing product time to market.
+    </div>
+</div>
+    </div>
+</div>
+{% endblock slider %}
+<!-- End Slider -->
+
+<!-- Start Main body -->
+{% block main_body %}
+<!-- Start About US Head Content -->
+<div class="row pl-5 pr-5 text-center about-u-head-content">
+    <div class="col-md-12 ">
+        Snable is a software product development services firm that combines cutting-edge technologies for online, Cloud, data, and devices to create world-class products and solutions. Snable helps organizations develop innovative products utilizing easily deployable and customized accelerators, with a digitalization strategy at the centre.
+    </div>
+</div>
+
+<div class="row pl-5 pr-5 text-center about-u-head-content">
+    <div class="col-md-12 ">
+        Snable, a SaaS-based company, offers solutions and services that assist organizations to produce high-quality business apps, Ecommerce apps and greater consumer interaction by reducing product time to market.
+    </div>
+</div>
+<!-- End About US Head Content -->
+
+<!-- Start Our Team Heading  -->
+<div class="row pl-5 pr-5 text-center text-uppercase our-team-heading">
+    <div class="col-md-12">
+        our team
+    </div>
+</div>
+<!-- End Our Team Heading  -->
+
+<!-- Start CEO Row -->
+<div class="row pl-5 pr-5 ceo zoom">
+    <div class="col-md-1"></div>
+    <!-- Start ceo image -->
+    <div class="col-md-3 ceo-image">
+        <img src="{% static 'img/about-us-ceo.png' %}" class="img-fluid" alt="Sumedh-Ghutke-Founder-&-CEO" />
+    </div>
+    <!-- End ceo image -->
+    <div class="col-md-1"></div>
+    <!-- Start ceo information -->
+    <div class="col-md-6 ceo-info">
+        <!-- Start Headin -->
+        <div class="row text-capitalize ceo-heading">
+            <div class="col-md-12">
+                sumedh ghutke
+            </div>
+        </div>
+        <!-- End Headin -->
+        <!-- Start Sub Heading -->
+        <div class="row ceo-sub-heading">
+            <div class="col-md-12">
+                Founder & CEO
+            </div>
+        </div>
+        <!-- Start Sub Heading -->
+        <!-- Start Content -->
+        <div class="row ceo-content">
+            <div class="col-md-12 text-justify">
+                Founder and CEO of Snable PVT LTD Mr Sumedh Ghutke is the alumni of the prestigious University of Texas, Austin. A digital marketing expert, consultant and trainer, he established Snable in 2021, with a mission to help business startups take their business online and generate more revenue. In his career span of over a decade, he has gained a reputation as a trusted leader, a strategic consultant and business initiator in the fields of Finance, manufacturing and retail. He has been a mentor of many emerging entrepreneurs across India.
+            </div>
+        </div>
+        <!-- End Content -->
+        <!-- Start follow us icon -->
+        <div class="row">
+            <div class="col-md-12 ceo-follow-icon">
+                <a href="https://www.facebook.com/Sumedhghutkeofficial/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                &nbsp;
+                <a href="https://www.linkedin.com/in/digitalsumedh/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End ceo information -->
+    <div class="col-md-1"></div>
+</div>
+<!-- End CEO Row -->
+
+<!-- Start co-founder Row -->
+<!--
+   - Use Same css of ceo for co-founder row.
+   - content will be change
+-->
+<div class="row pl-5 pr-5 ceo zoom">
+    <div class="col-md-1 order-md-1"></div>
+    <!-- Start ceo information -->
+    <div class="col-md-6 order-md-2 col-12 order-2 ceo-info">
+        <!-- Start Headin -->
+        <div class="row text-capitalize ceo-heading">
+            <div class="col-md-12">
+                smith derek
+            </div>
+        </div>
+        <!-- End Headin -->
+
+        <!-- Start Sub Heading -->
+        <div class="row ceo-sub-heading">
+            <div class="col-md-12">
+                Co-Founder
+            </div>
+        </div>
+        <!-- Start Sub Heading -->
+
+        <!-- Start Content -->
+        <div class="row ceo-content">
+            <div class="col-md-12 text-justify">
+                Mr Smith Derek Co-founded Snable PVT LTD along with Mr Sumedh Ghutke, with his vast experience in Virtual Assistance, Business Process Outsourcing and Branding Strategies. He is a specialist in SAP consulting, implementation and support. It is his observation that the great companies of the world are losing the key components of the business, that is services and their connections. It is also his belief that the right school of thought and timely action is what makes any business successful. He marries effective technical solutions with practical business strategies that align to organisational goals for long term success.
+            </div>
+        </div>
+        <!-- End Content -->
+
+        <!-- Start follow us icon -->
+        <div class="row">
+            <div class="col-md-12 ceo-follow-icon">
+                <a href="https://www.facebook.com/smith.derek.501" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                &nbsp;
+                <a href="https://www.linkedin.com/in/smith-derek-b1371210a/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End ceo information -->
+    <div class="col-md-1 order-md-8"></div>
+    <!-- Start ceo image -->
+    <div class="col-md-3 order-md-9 col-12 order-1 ceo-image">
+        <img src="{% static 'img/about-us-co-founder.png' %}" class="img-fluid" alt="Smith-Derek-Co-Founder" />
+    </div>
+    <!-- End ceo image -->
+    <div class="col-md-1 order-md-12"></div>
+</div>
+<!-- End co-founder Row -->
+
+<!-- Start HR Manager and Full stack developer row -->
+<div class="row hr">
+    <div class="col-md-2"></div>
+    <!-- Start Hr Manager -->
+    <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-senior-manager-human-capital.png' %}" class="img-fluid" alt="Mamta-Chhatre-Senior-Manager-Human-Capital" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12 ">
+                Mamta Chhatre
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                Senior Manager Human Capital
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/mamta-chhatre-6b4950234/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End Hr Manager -->
+    <div class="col-md-2"></div>
+    <!-- Start Full Stack Developer -->
+    <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-full-stack-developer.png' %}" class="img-fluid" alt="Ankit-Kosurkar-Full-Stack-Developer" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12">
+                Ankit Kosurkar
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                Full Stack Developer
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/ankit-kosurkar-78969a16b/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End Full Stack Developer -->
+    <div class="col-md-2"></div>
+</div>
+<!-- End HR Manager and Full stack developer row -->
+
+<!-- Start  Designer and Android Developer row -->
+<div class="row hr">
+    <div class="col-md-2"></div>
+
+    <!-- Start  UI / UX Designer -->
+    <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-ui-ux-designer.png' %}" class="img-fluid" alt="Rakesh-Pimpalkar-UI/UX-Designer" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12">
+                Rakesh Pimpalkar
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                UI/UX Designer
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/rakesh-pimpalkar-b9658a225/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in" ></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End  UI / UX Designer -->
+
+    <div class="col-md-2"></div>
+
+    <!-- Start Full Stack row -->
+     <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-full-stack-developer2.png' %}" class="img-fluid" alt="Aruna-Soor-Full-Stack-Developer" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12">
+                Aruna  Soor
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                Full Stack Developer
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/aruna-soor-05bb78127" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End Full Stack row -->
+
+    <div class="col-md-2"></div>
+</div>
+<!-- End  Designer and Android Developer row -->
+
+<!-- Start  senior counsellor and digital marketing specialist  row -->
+<div class="row hr">
+    <div class="col-md-2"></div>
+
+    <!-- Start  senior counsellor -->
+    <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-senior-counsellor.png' %}" class="img-fluid" alt="Sakshi-Santoshi-Senior-Counsellor" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12">
+                Sakshi Santoshi
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                Senior Counsellor
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/sakshi-santoshi-88a5b11ab" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in" ></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End  senior counsellor -->
+
+    <div class="col-md-2"></div>
+
+    <!-- Start digital marketing specialist row -->
+     <div class="col-md-3 zoom">
+        <div class="row hr-image">
+            <div class="col-md-12">
+                <img src="{% static 'img/about-us-digital-marketing-specialist.png' %}" class="img-fluid" alt="Rohit-Udapure-Digital-Marketing-Specialist" />
+            </div>
+        </div>
+        <div class="row text-center text-capitalize hr-heading">
+            <div class="col-md-12">
+                Rohit Udapure
+            </div>
+        </div>
+        <div class="row text-center hr-sub-heading">
+            <div class="col-md-12">
+                Digital Marketing Specialist
+            </div>
+        </div>
+        <!-- Start follow us icon -->
+        <div class="row text-center hr-follow-icon">
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/rohit-udapure/" class="text-decoration-none" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End follow us icon -->
+    </div>
+    <!-- End digital marketing specialist row -->
+
+    <div class="col-md-2"></div>
+</div>
+<!-- End  senior counsellor and digital marketing specialist  row -->
+
+
+
+{% endblock main_body %}
+<!-- End Main body -->
